@@ -1,0 +1,59 @@
+url: "https://mirkomazzoleni.com"
+
+permalink: pretty
+
+# Dependencies
+plugins:              
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - github-pages
+  - rouge
+
+# Setup
+title:               Mirko Mazzoleni
+tagline:             'Researching in System Identification and Data Science'
+description:         'Mirko Mazzoleni research and data science blog'
+url:                 http://mirkomazzoleni.github.io
+baseurl:             ''
+author:              Mirko Mazzoleni
+image:              public/logo_clear_hi.png" #immagine di default per le pagine https://github.com/merlos/jekyll-auto-image
+
+
+
+# Format
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  math_engine: mathjax
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+highlighter: rouge
+
+    
+# Pagination
+paginate: 9
+
+# Social
+social:
+  mail: mirko.mazzoleni@unibg.it
+  github: mirkomazzoleni
+  linkedin: mirkomazzoleni
+  twitter: mirko_mazzoleni
+
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+

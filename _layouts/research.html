@@ -1,0 +1,33 @@
+---
+layout: default_post
+---
+
+<link rel="stylesheet" type="text/css" href="{{ "/assets/css/article.css" | prepend: site.baseurl }}">
+
+<div class="container--text">
+	<h1 class="h1--post-title-research"> {{ page.title }} </h1>
+	<span class="post-authors"> {{ page.authors }} </span>
+
+</div>
+
+
+<div class="page-wrapper">
+    <div class="container--text">
+        {{ content }}
+        {% include share_page.html %}
+    </div>
+</div>
+
+
+
+<div>
+{% include read-more.html %}
+</div>
+
+<div class="container--text">
+	{% include comments.html %}
+</div>
+
+
+
+

@@ -1,0 +1,57 @@
+---
+layout: research
+title: "Fault Detection via modified Principal Direction Divisive Partitioning
+and application to aerospace electro-mechanical actuators"
+date: 2014-12-15
+author: Mirko Mazzoleni
+category: Research
+tags: [Matlab, Fault Detection, Cluster]
+comments: true
+authors: "M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi"      
+post-card-type: research
+card-image: ../images/2014-12-15-IEEE_CDC_PDDP/gauss.png
+---
+
+### Abstract
+
+In this paper, the use of the Principal Direction
+Divisive Partitioning (PDDP) method for unsupervised learning
+is discussed and analyzed with a focus on fault detection
+applications. Specifically, a geometric limit of the standard
+algorithm is highlighted by means of a simulation example
+and a modified version of PDDP is introduced. Such a method
+is shown to correcly perform data clustering also when the
+standard algorithm fails. The modified strategy is based on the
+use of a Chi-squared statistical test and offers more guarantees
+in terms of detection of a wrong functioning of the system.
+The proposed algorithm is finally experimentally tested on
+a fault detection application for aerospace electro-mechanical
+actuators, for which a comparison with k-means and fuzzy k-
+means approaches is also provided. [<strong>[Paper](http://move.unibg.it/cal/wp-content/uploads/papers/2014-IEEE-CDC-FDI-PDDP.pdf)</strong>, <strong>Code</strong>]
+
+
+
+
+
+#### Reference
+
+<blockquote>
+M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators," <strong>53rd IEEE Conference on Decision and Control (CDC)</strong>, Los Angeles, CA, 2014, pp. 5770-5775. <a href= "https://doi.org/10.1109/CDC.2014.7040292"> doi:10.1109/CDC.2014.7040292 </a>
+</blockquote>
+
+#### Bibtex
+```
+@INPROCEEDINGS{7040292, 
+	author={M. Mazzoleni and S. Formentin and F. Previdi and S. M. Savaresi}, 
+	booktitle={53rd IEEE Conference on Decision and Control}, 
+	title={Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators}, 
+	year={2014}, 
+	volume={}, 
+	number={}, 
+	pages={5770-5775}, 
+	keywords={control engineering computing;electromechanical actuators;fault diagnosis;fuzzy set theory;learning (artificial intelligence);pattern clustering;statistical testing;Chi-squared statistical test;PDDP;aerospace electro-mechanical actuators;data clustering;fault detection application;fault detection applications;fuzzy k-means approaches;modified principal direction divisive partitioning;unsupervised learning;Actuators;Clustering algorithms;Frequency-domain analysis;Matrix decomposition;Partitioning algorithms;Standards;Vectors}, 
+	doi={10.1109/CDC.2014.7040292}, 
+	ISSN={0191-2216}, 
+	month={Dec},
+}
+```
