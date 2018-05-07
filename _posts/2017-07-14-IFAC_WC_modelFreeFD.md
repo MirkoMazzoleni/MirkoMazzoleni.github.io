@@ -4,7 +4,7 @@ title: "A comparison of data-driven fault detection methods with application to 
 date: 2017-07-14
 author: Mirko Mazzoleni
 category: Research
-tags: [ML, Fault Detection]
+tags: [ML, FaultDetection]
 comments: true
 authors: "M. Mazzoleni, Y. Maccarana, F. Previdi"       
 post-card-type: research

@@ -5,7 +5,7 @@ and application to aerospace electro-mechanical actuators"
 date: 2014-12-15
 author: Mirko Mazzoleni
 category: Research
-tags: [Matlab, Fault Detection, Cluster]
+tags: [Matlab, FaultDetection, Cluster]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi"      
 post-card-type: research
