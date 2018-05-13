@@ -3,7 +3,7 @@ layout: research
 title: "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators"
 date: 2017-07-14
 author: Mirko Mazzoleni
-category: Research
+category: Conference
 tags: [ML, FaultDetection]
 comments: true
 authors: "M. Mazzoleni, Y. Maccarana, F. Previdi"       
@@ -24,7 +24,7 @@ A large experimental activity has been carried out to perform acquisitions with 
 #### Reference
 
 <blockquote>
-M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators," 2017 <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 13003-13008.
+M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators," <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 13003-13008.
 <a href="https://doi.org/10.1016/j.ifacol.2017.08.1837"> doi: 10.1016/j.ifacol.2017.08.1837 </a>
 </blockquote>
 

@@ -3,7 +3,7 @@ layout: research
 title: "Control-oriented modeling of SKU-level demand in retail food market"
 date: 2017-07-14
 author: Mirko Mazzoleni
-category: Research
+category: Conference
 tags: [ML]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi, S. M. Savaresi"       
@@ -32,7 +32,7 @@ of the disturbances which affect the system is usually not gaussian.
 #### Reference
 
 <blockquote>
-M. Mazzoleni and S. Formentin and F. Previdi and S.M. Savaresi, "Control-oriented modeling of SKU-level demand in retail food market," 2017 <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 13003-13008.
+M. Mazzoleni and S. Formentin and F. Previdi and S.M. Savaresi, "Control-oriented modeling of SKU-level demand in retail food market," <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 13003-13008.
 <a href="https://doi.org/10.1016/j.ifacol.2017.08.1951"> doi: 10.1016/j.ifacol.2017.08.1951 </a>
 </blockquote>
 

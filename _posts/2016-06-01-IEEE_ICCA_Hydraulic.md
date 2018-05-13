@@ -3,7 +3,7 @@ layout: research
 title: "Modeling and identification of an Electro-Hydraulic Actuator"
 date: 2016-06-01
 author: Mirko Mazzoleni
-category: Research
+category: Conference
 tags: [Modeling]
 comments: true
 authors: "A. L. Cologni, M. Mazzoleni, F. Previdi"       

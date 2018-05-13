@@ -3,7 +3,7 @@ layout: research
 title: "A Comparison of Classification Algorithms for Brain Computer Interface in Drug Craving Treatment"
 date: 2015-08-20
 author: Mirko Mazzoleni
-category: Research
+category: Conference
 tags: [Python, ML]
 comments: true
 authors: "M. Mazzoleni, F. Previdi"     

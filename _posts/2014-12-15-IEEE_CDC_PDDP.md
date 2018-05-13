@@ -4,7 +4,7 @@ title: "Fault Detection via modified Principal Direction Divisive Partitioning
 and application to aerospace electro-mechanical actuators"
 date: 2014-12-15
 author: Mirko Mazzoleni
-category: Research
+category: Conference
 tags: [Matlab, FaultDetection, Cluster]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi"      

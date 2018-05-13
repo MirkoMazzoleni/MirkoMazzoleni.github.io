@@ -3,7 +3,7 @@ layout: research
 title: "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering"
 date: 2017-07-14
 author: Mirko Mazzoleni
-category: Research
+category: Conference
 tags: [Modeling, FaultDetection]
 comments: true
 authors: "M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin, F. Previdi"       
@@ -33,7 +33,7 @@ of the disturbances which affect the system is usually not gaussian.
 #### Reference
 
 <blockquote>
-M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin and F. Previdi, "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering," 2017 <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 2860-2865.
+M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin and F. Previdi, "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering," <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 2860-2865.
 <a href="https://doi.org/10.1016/j.ifacol.2017.08.640"> doi: 10.1016/j.ifacol.2017.08.640 </a>
 </blockquote>
 
