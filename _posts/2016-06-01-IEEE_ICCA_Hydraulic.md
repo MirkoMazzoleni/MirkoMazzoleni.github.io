@@ -4,7 +4,7 @@ title: "Modeling and identification of an Electro-Hydraulic Actuator"
 date: 2016-06-01
 author: Mirko Mazzoleni
 category: Conference
-tags: [Modeling]
+tags: [Modeling, Matlab]
 comments: true
 authors: "A. L. Cologni, M. Mazzoleni, F. Previdi"       
 post-card-type: research
@@ -22,9 +22,7 @@ In this work, a physical non-linear model of an Electro-Hydraulic Actuator has b
 #### Reference
 
 <blockquote>
-A. L. Cologni, M. Mazzoleni and F. Previdi, "Modeling and identification of an Electro-Hydraulic Actuator," <strong>12th IEEE International Conference on Control and Automation (ICCA)</strong>, Kathmandu, 2016, pp. 335-340.
-<a href="https://doi.org/10.1109/ICCA.2016.7505299"> doi: 10.1109/ICCA.2016.7505299 </a>
-</blockquote>
+A. L. Cologni, M. Mazzoleni and F. Previdi, "Modeling and identification of an Electro-Hydraulic Actuator," <strong>12th IEEE International Conference on Control and Automation (ICCA)</strong>, Kathmandu, Nepal, 2016, <a href="https://doi.org/10.1109/ICCA.2016.7505299"> doi: 10.1109/ICCA.2016.7505299 </a>, ISBN: 978-1-5090-1738-6, pp. 335-340.</blockquote>
 
 #### Bibtex
 ```
@@ -36,9 +34,9 @@ A. L. Cologni, M. Mazzoleni and F. Previdi, "Modeling and identification of an E
 	volume={}, 
 	number={}, 
 	pages={335-340}, 
-	keywords={electrohydraulic control equipment;hydraulic actuators;identification;actuator dynamics;conservation laws;constitutive laws;electrohydraulic actuator identification;electrohydraulic actuator modeling;global parametric-identification procedure;lumped-parameter element models;physical nonlinear model;system component;Automation;Conferences}, 
 	doi={10.1109/ICCA.2016.7505299}, 
 	ISSN={}, 
+	ISBN={978-1-5090-1738-6},
 	month={June},
 }
 ```

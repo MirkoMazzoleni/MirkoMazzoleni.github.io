@@ -5,7 +5,7 @@ and application to aerospace electro-mechanical actuators"
 date: 2014-12-15
 author: Mirko Mazzoleni
 category: Conference
-tags: [Matlab, FaultDetection, Cluster]
+tags: [Matlab, FaultDetection, Cluster, ML]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi"      
 post-card-type: research
@@ -36,7 +36,7 @@ means approaches is also provided. [<strong>[Paper](http://move.unibg.it/cal/wp-
 #### Reference
 
 <blockquote>
-M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators," <strong>53rd IEEE Conference on Decision and Control (CDC)</strong>, Los Angeles, CA, 2014, pp. 5770-5775. <a href= "https://doi.org/10.1109/CDC.2014.7040292"> doi:10.1109/CDC.2014.7040292 </a>
+M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators," <strong>53rd IEEE Conference on Decision and Control (CDC)</strong>, Los Angeles, CA, USA, 2014, <a href= "https://doi.org/10.1109/CDC.2014.7040292"> doi:10.1109/CDC.2014.7040292 </a>, ISBN: 978-1-4673-6090-6, pp. 5770-5775.
 </blockquote>
 
 #### Bibtex
@@ -49,9 +49,9 @@ M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via 
 	volume={}, 
 	number={}, 
 	pages={5770-5775}, 
-	keywords={control engineering computing;electromechanical actuators;fault diagnosis;fuzzy set theory;learning (artificial intelligence);pattern clustering;statistical testing;Chi-squared statistical test;PDDP;aerospace electro-mechanical actuators;data clustering;fault detection application;fault detection applications;fuzzy k-means approaches;modified principal direction divisive partitioning;unsupervised learning;Actuators;Clustering algorithms;Frequency-domain analysis;Matrix decomposition;Partitioning algorithms;Standards;Vectors}, 
 	doi={10.1109/CDC.2014.7040292}, 
-	ISSN={0191-2216}, 
+	ISSN={0191-2216},
+	ISBN={978-1-4673-6090-6}, 
 	month={Dec},
 }
 ```

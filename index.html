@@ -85,12 +85,20 @@ subtitle:   Researching in System Identification and Data Science
                     </div>
                     <div class="card-footer">
                         <div class="card-footer-wrapper" layout="row bottom-left">
-                            <div class="card-type is-notShownIfHover">{{ post.date | date: "%F"}}</div>
+                            <div class="card-type is-notShownIfHover">
+                            	{{ post.date | date: "%F"}}
+                            </div>
+
                             <div class="card-cat">
                                 {% for cat in post.categories %}
                                     {{ cat }} &nbsp;&nbsp;
                                 {% endfor %}
-                            </div>
+                            </div> 
+                           <!--   <div class="card-tag">
+                                {% for tag in post.tags %}
+                                    &nbsp;&nbsp; {{ tag }} 
+                                {% endfor %}
+                            </div> -->
                         </div>
                     </div>
                  </div>

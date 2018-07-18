@@ -24,8 +24,7 @@ A large experimental activity has been carried out to perform acquisitions with 
 #### Reference
 
 <blockquote>
-M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators," <strong>20th IFAC World Congress </strong>, Toulouse, FRA, 2017, pp. 12797 - 12802.
-<a href="https://doi.org/10.1016/j.ifacol.2017.08.1837"> doi: 10.1016/j.ifacol.2017.08.1837 </a>
+M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators," <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.1837"> doi: 10.1016/j.ifacol.2017.08.1837 </a>, ISSN: 2405-8963, pp. 12797 - 12802. 
 </blockquote>
 
 #### Bibtex

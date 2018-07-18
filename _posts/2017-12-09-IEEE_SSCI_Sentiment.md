@@ -4,7 +4,7 @@ title: "Unsupervised Learning of Fundamental Emotional States via Word Embedding
 date: 2017-12-09
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML]
+tags: [ML, Python]
 comments: true
 authors: "M. Mazzoleni, G. Maroni, F. Previdi"       
 post-card-type: research
@@ -30,7 +30,7 @@ expressed as the mean of the word’s vectors that compose the
 phrase, after preprocessing steps. The sentence representation is
 finally compared with each emotion’s word vector, to find the
 most representative with respect to the sentence’s vector
- [<strong> Paper</strong>, <strong>Code</strong>]
+ [<strong>Paper</strong>, <strong>Code</strong>]
 
 
 
@@ -39,7 +39,7 @@ most representative with respect to the sentence’s vector
 #### Reference
 
 <blockquote>
-	M. Mazzoleni, G. Maroni and F. Previdi, "Unsupervised learning of fundamental emotional states via word embeddings,"  <strong> 2017 IEEE Symposium Series on Computational Intelligence (SSCI), Honolulu, HI, 2017 (SSCI) </strong>, Honolulu, Hawaii, 2017.
+	M. Mazzoleni, G. Maroni and F. Previdi, "Unsupervised learning of fundamental emotional states via word embeddings,"  <strong> 2017 IEEE Symposium Series on Computational Intelligence (SSCI) </strong>,  Honolulu, Hawaii, USA, <a href= "https://doi.org/10.1109/SSCI.2017.8280819"> doi: 10.1109/SSCI.2017.8280819 </a>, ISBN: 978-1-5386-2726-6.
 <a href=""> </a>
 </blockquote>
 

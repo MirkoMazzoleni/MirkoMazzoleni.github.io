@@ -39,7 +39,7 @@ in detecting the mechanical transmission degradation is experimentally tested. T
 inspection and screw thread profile measurements. In spite of
 this, the actuator is still able to perform position tracking in
 an effective way.
- [<strong> Paper</strong>, <strong>Code</strong>]
+ [<strong>Paper</strong>, <strong>Code</strong>]
 
 
 
@@ -63,6 +63,6 @@ an effective way.
 	year = "2018",
 	issn = "",
 	doi = "",
-	author = "F. Previdi, Y. Maccarana, M. Mazzoleni, M. Scandella, G. Pispola and N. Porzi",
+	author = "F. Previdi and Y. Maccarana and M. Mazzoleni and M. Scandella and G. Pispola and N. Porzi",
 }
 ```
