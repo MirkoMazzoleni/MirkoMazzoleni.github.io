@@ -22,7 +22,7 @@ In this paper, the use of Brain Computer Interfaces (BCIs) is proposed as a mean
 #### Reference
 
 <blockquote>
-M. Mazzoleni and F. Previdi, "A Comparison of Classification Algorithms for Brain Computer Interface in Drug Craving Treatment," <strong> 9th IFAC Symposium on Biological and Medical Systems (BMS) </strong>, Berlin, Germany, 2015, <a href= "https://doi.org/10.1016/j.ifacol.2015.10.188"> doi: 10.1016/j.ifacol.2015.10.188 </a>, ISSN: 2405-8963, pp. 487-492.
+M. Mazzoleni and F. Previdi, "A Comparison of Classification Algorithms for Brain Computer Interface in Drug Craving Treatment", <strong> 9th IFAC Symposium on Biological and Medical Systems (BMS) </strong>, Berlin, Germany, 2015, <a href= "https://doi.org/10.1016/j.ifacol.2015.10.188"> doi: 10.1016/j.ifacol.2015.10.188 </a>, ISSN: 2405-8963, pp. 487-492.
 </blockquote>
 
 #### Bibtex

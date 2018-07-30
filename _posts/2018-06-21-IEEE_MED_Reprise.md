@@ -48,7 +48,7 @@ an effective way.
 #### Reference
 
 <blockquote>
-	F. Previdi, Y. Maccarana, M. Mazzoleni, M. Scandella, G. Pispola and N. Porzi, "Development and Experimental Testing of a Health Monitoring System of Electro-Mechanical Actuators for Small Airplanes,"  <strong> 26th Mediterranean Conference on Control and Automation (MED) </strong>, Zadar, Croatia, 2018.
+	F. Previdi, Y. Maccarana, M. Mazzoleni, M. Scandella, G. Pispola and N. Porzi, "Development and Experimental Testing of a Health Monitoring System of Electro-Mechanical Actuators for Small Airplanes",  <strong> 26th Mediterranean Conference on Control and Automation (MED) </strong>, Zadar, Croatia, 2018.
 <a href=""> </a>
 </blockquote>
 

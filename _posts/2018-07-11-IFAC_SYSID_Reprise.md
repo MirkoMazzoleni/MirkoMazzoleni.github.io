@@ -35,7 +35,7 @@ health state, leading to a first building block for a complete condition assessm
 #### Reference
 
 <blockquote>
-	M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi, "Condition assessment of electro-mechanical actuators for aerospace using relative density-ratio estimation,"  <strong> 18th IFAC Symposium on System Identification (SYSID)</strong>, Stockholm, Sweden, 2018. <a href=""> </a>
+	M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi, "Condition assessment of electro-mechanical actuators for aerospace using relative density-ratio estimation",  <strong> 18th IFAC Symposium on System Identification (SYSID)</strong>, Stockholm, Sweden, 2018. <a href=""> </a>
 </blockquote>
 
 #### Bibtex

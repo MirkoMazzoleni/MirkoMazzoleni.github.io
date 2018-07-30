@@ -32,7 +32,7 @@ of the disturbances which affect the system is usually not gaussian.
 #### Reference
 
 <blockquote>
-M. Mazzoleni and S. Formentin and F. Previdi and S.M. Savaresi, "Control-oriented modeling of SKU-level demand in retail food market," <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.1951"> doi: 10.1016/j.ifacol.2017.08.1951 </a>, ISSN: 2405-8963, pp. 13003-13008.
+M. Mazzoleni and S. Formentin and F. Previdi and S.M. Savaresi, "Control-oriented modeling of SKU-level demand in retail food market", <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.1951"> doi: 10.1016/j.ifacol.2017.08.1951 </a>, ISSN: 2405-8963, pp. 13003-13008.
 
 </blockquote>
 

@@ -36,7 +36,7 @@ means approaches is also provided. [<strong>[Paper](http://move.unibg.it/cal/wp-
 #### Reference
 
 <blockquote>
-M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators," <strong>53rd IEEE Conference on Decision and Control (CDC)</strong>, Los Angeles, CA, USA, 2014, <a href= "https://doi.org/10.1109/CDC.2014.7040292"> doi:10.1109/CDC.2014.7040292 </a>, ISBN: 978-1-4673-6090-6, pp. 5770-5775.
+M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuatorss <strong>53rd IEEE Conference on Decision and Control (CDC)</strong>, Los Angeles, CA, USA, 2014, <a href= "https://doi.org/10.1109/CDC.2014.7040292"> doi:10.1109/CDC.2014.7040292 </a>, ISBN: 978-1-4673-6090-6, pp. 5770-5775.
 </blockquote>
 
 #### Bibtex

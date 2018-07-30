@@ -33,7 +33,7 @@ of the disturbances which affect the system is usually not gaussian.
 #### Reference
 
 <blockquote>
-M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin and F. Previdi, "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering," <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.640"> doi: 10.1016/j.ifacol.2017.08.640 </a>, ISSN: 2405-8963,  pp. 2860-2865.
+M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin and F. Previdi, "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering", <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.640"> doi: 10.1016/j.ifacol.2017.08.640 </a>, ISSN: 2405-8963,  pp. 2860-2865.
 </blockquote>
 
 #### Bibtex

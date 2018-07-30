@@ -22,7 +22,7 @@ In this work, a physical non-linear model of an Electro-Hydraulic Actuator has b
 #### Reference
 
 <blockquote>
-A. L. Cologni, M. Mazzoleni and F. Previdi, "Modeling and identification of an Electro-Hydraulic Actuator," <strong>12th IEEE International Conference on Control and Automation (ICCA)</strong>, Kathmandu, Nepal, 2016, <a href="https://doi.org/10.1109/ICCA.2016.7505299"> doi: 10.1109/ICCA.2016.7505299 </a>, ISBN: 978-1-5090-1738-6, pp. 335-340.</blockquote>
+A. L. Cologni, M. Mazzoleni and F. Previdi, "Modeling and identification of an Electro-Hydraulic Actuator", <strong>12th IEEE International Conference on Control and Automation (ICCA)</strong>, Kathmandu, Nepal, 2016, <a href="https://doi.org/10.1109/ICCA.2016.7505299"> doi: 10.1109/ICCA.2016.7505299 </a>, ISBN: 978-1-5090-1738-6, pp. 335-340.</blockquote>
 
 #### Bibtex
 ```

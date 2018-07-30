@@ -34,7 +34,7 @@ regularization method for learning parametric models.
 #### Reference
 
 <blockquote>
-M. Mazzoleni, S. Formentin, M. Scandella, F. Previdi, "Identification of nonlinear dynamical system with synthetic data: a preliminary investigation," <strong> 18th IFAC Symposium on System Identification (SYSID)</strong>, Stockholm, Sweden, 2018.
+M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi, "Identification of nonlinear dynamical system with synthetic data: a preliminary investigation", <strong> 18th IFAC Symposium on System Identification (SYSID)</strong>, Stockholm, Sweden, 2018.
 <a href=""> </a>
 </blockquote>
 

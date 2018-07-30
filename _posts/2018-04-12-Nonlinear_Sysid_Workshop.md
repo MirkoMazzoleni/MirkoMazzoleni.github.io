@@ -23,7 +23,7 @@ The aim of this work is to introduce the concept of manifold regularization to t
 #### Reference
 
 <blockquote>
-M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin and F. Previdi, "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering," <strong>3rd Nonlinear System Identification Benchmarks Workshop, Liege, Belgium. </strong>, Liege, Belgium, 2018.
+M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin and F. Previdi, "Fault detection in airliner electro-mechanical actuators via hybrid particle filtering", <strong>3rd Nonlinear System Identification Benchmarks Workshop, Liege, Belgium. </strong>, Liege, Belgium, 2018.
 </blockquote>
 
 #### Bibtex

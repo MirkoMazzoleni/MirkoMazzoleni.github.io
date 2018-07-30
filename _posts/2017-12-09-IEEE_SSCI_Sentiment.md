@@ -39,7 +39,7 @@ most representative with respect to the sentence’s vector
 #### Reference
 
 <blockquote>
-	M. Mazzoleni, G. Maroni and F. Previdi, "Unsupervised learning of fundamental emotional states via word embeddings,"  <strong> 2017 IEEE Symposium Series on Computational Intelligence (SSCI) </strong>,  Honolulu, Hawaii, USA, <a href= "https://doi.org/10.1109/SSCI.2017.8280819"> doi: 10.1109/SSCI.2017.8280819 </a>, ISBN: 978-1-5386-2726-6.
+	M. Mazzoleni, G. Maroni and F. Previdi, "Unsupervised learning of fundamental emotional states via word embeddings",  <strong> 2017 IEEE Symposium Series on Computational Intelligence (SSCI) </strong>,  Honolulu, Hawaii, USA, <a href= "https://doi.org/10.1109/SSCI.2017.8280819"> doi: 10.1109/SSCI.2017.8280819 </a>, ISBN: 978-1-5386-2726-6.
 <a href=""> </a>
 </blockquote>
 
