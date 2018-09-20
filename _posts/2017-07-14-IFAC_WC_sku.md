@@ -23,7 +23,7 @@ discussed and a novel switching dynamical strategy is proposed. When applied to 
 data from a real food company, the above strategy is shown to accurately predict future sales
 under fixed promotion events and outperform the state-of-the-art modeling methodsecause the distribution
 of the disturbances which affect the system is usually not gaussian.
- [<strong>[Paper](http://move.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-retail-food-market.pdf)</strong>, <strong>Code</strong>]
+ [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-retail-food-market.pdf)</strong>, <strong>Code</strong>]
 
 
 

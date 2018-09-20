@@ -24,7 +24,7 @@ steel spheres, inside a ballscrew transmission system. Then, a model for each co
 identified and the proposed methodology applied. Simulation results show the superiority of the
 method with respect to the EKF (Extended Kalman Filter), especially because the distribution
 of the disturbances which affect the system is usually not gaussian.
- [<strong>[Paper](http://move.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-Holmes-particle-filter.pdf)</strong>, <strong>Code</strong>]
+ [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-Holmes-particle-filter.pdf)</strong>, <strong>Code</strong>]
 
 
 

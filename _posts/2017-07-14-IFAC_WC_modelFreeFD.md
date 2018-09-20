@@ -15,7 +15,7 @@ card-image: ../images/2017-07-14-IFAC_WC/model_free.png
 
 In this paper, a model-free framework is proposed in order to equip electromechanical actuators, deployed in aerospace applications, with health-monitoring capabilities.
 A large experimental activity has been carried out to perform acquisitions with both healthy and faulty components, taking into consideration the standard regulations for environmental testing of avionics hardware. The injected faults followed a Fault Tree Analysis and Failure Mode and Effect Analysis. Features, belonging to different domains, have been extracted from the measured signals. These indexes are based largely on the motor driving currents, in order to avoid the installation of new sensors. Finally, a Gradient Tree Boosting algorithm has been chosen to detect the system status: the choice has been dictated by a comparison with other known classification algorithms. Furthermore, the most promising features for a classification point of view are reported.
- [<strong>[Paper](http://move.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-Holmes-model-free.pdf)</strong>, <strong>Code</strong>]
+ [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-Holmes-model-free.pdf)</strong>, <strong>Code</strong>]
 
 
 

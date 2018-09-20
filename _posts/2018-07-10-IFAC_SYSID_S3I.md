@@ -25,7 +25,7 @@ Learning (SSL) are employed and adapted. The problem is then cast as a regulariz
 learning problem. The effectiveness of the proposed approach is assessed on various nonlinear
 benchmark systems via repeated simulations, comparing the obtained results with a standard
 regularization method for learning parametric models.
- [<strong>Paper</strong>, <strong>Code</strong>]
+ [<strong>[Paper]()</strong>, <strong>Code</strong>]
 
 
 

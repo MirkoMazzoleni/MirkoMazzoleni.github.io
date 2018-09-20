@@ -27,7 +27,7 @@ in terms of detection of a wrong functioning of the system.
 The proposed algorithm is finally experimentally tested on
 a fault detection application for aerospace electro-mechanical
 actuators, for which a comparison with k-means and fuzzy k-
-means approaches is also provided. [<strong>[Paper](http://move.unibg.it/cal/wp-content/uploads/papers/2014-IEEE-CDC-FDI-PDDP.pdf)</strong>, <strong>Code</strong>]
+means approaches is also provided. [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2014-IEEE-CDC-FDI-PDDP.pdf)</strong>, <strong>Code</strong>]
 
 
 

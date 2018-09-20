@@ -13,7 +13,7 @@ card-image: ../images/2015-08-20-IFAC_BMS_BCI/bci.png
 
 ### Abstract
 
-In this paper, the use of Brain Computer Interfaces (BCIs) is proposed as a means to recover patients from craving diseases, with the aim of a clinical protocol. In order to understanding the BCI messages, a classification algorithm based on logistic regression has been developed. The choice was dictated by a comparison with other known classification techniques of different reasoning type, highlighting the pros and cons of them. Finally, a result regarding the brain areas which are more involved during the activity is reported. [<strong>[Paper](http://move.unibg.it/cal/wp-content/uploads/papers/2015-IFAC-BMS-BCI.pdf)</strong>, <strong>Code</strong>]
+In this paper, the use of Brain Computer Interfaces (BCIs) is proposed as a means to recover patients from craving diseases, with the aim of a clinical protocol. In order to understanding the BCI messages, a classification algorithm based on logistic regression has been developed. The choice was dictated by a comparison with other known classification techniques of different reasoning type, highlighting the pros and cons of them. Finally, a result regarding the brain areas which are more involved during the activity is reported. [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2015-IFAC-BMS-BCI.pdf)</strong>, <strong>Code</strong>]
 
 
 

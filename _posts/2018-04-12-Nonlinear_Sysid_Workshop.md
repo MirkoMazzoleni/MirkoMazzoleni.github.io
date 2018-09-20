@@ -14,7 +14,7 @@ card-image: ../images/2018-04-12-Nonlinear_Sysid_Workshop/coupled_drive.png
 ### Abstract
 
 The aim of this work is to introduce the concept of manifold regularization to the identification of dynamic systems. The method has been tested on the coupled electric drives problem, using a purely black box approach in the framework of the Reproducing Kernel Hilbert Spaces (RKHS)
- [<strong>[Presentation](http://move.unibg.it/cal/papers/kernel-manifold-regression-for-the-coupled-electric-drives-dataset/)</strong>, <strong>[Code](http://move.unibg.it/cal/papers/kernel-manifold-regression-for-the-coupled-electric-drives-dataset/)</strong>]
+ [<strong>[Presentation](http://cal.unibg.it/cal/papers/kernel-manifold-regression-for-the-coupled-electric-drives-dataset/)</strong>, <strong>[Code](http://cal.unibg.it/cal/papers/kernel-manifold-regression-for-the-coupled-electric-drives-dataset/)</strong>]
 
 
 
