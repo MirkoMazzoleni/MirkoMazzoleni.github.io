@@ -25,7 +25,7 @@ Learning (SSL) are employed and adapted. The problem is then cast as a regulariz
 learning problem. The effectiveness of the proposed approach is assessed on various nonlinear
 benchmark systems via repeated simulations, comparing the obtained results with a standard
 regularization method for learning parametric models.
- [<strong>[Paper]()</strong>, <strong>Code</strong>]
+ [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2018/10/2018-IFAC-SYSID-Identification-of-nonlinear-dynamical-system-with-synthetic-data-a-preliminary-investigation.pdf)</strong>, <strong>Code</strong>]
 
 
 
@@ -34,21 +34,24 @@ regularization method for learning parametric models.
 #### Reference
 
 <blockquote>
-M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi, "Identification of nonlinear dynamical system with synthetic data: a preliminary investigation", <strong> 18th IFAC Symposium on System Identification (SYSID)</strong>, Stockholm, Sweden, 2018.
+M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi, "Identification of nonlinear dynamical system with synthetic data: a preliminary investigation", <strong> 18th IFAC Symposium on System Identification (SYSID)</strong>, Stockholm, Sweden, 2018, <a href="https://doi.org/10.1016/j.ifacol.2018.09.227"> doi: 10.1016/j.ifacol.2018.09.227 </a>, ISSN: 2405-8963, pp. 622 - 627.
 <a href=""> </a>
 </blockquote>
 
 #### Bibtex
 ```
-@article{,
-	title = "Identification of nonlinear dynamical system with synthetic data: a preliminary investigation",
-	journal = "18th IFAC Symposium on System Identification (SYSID)",
-	volume = "",
-	number = "",
-	pages = "",
-	year = "2018",
-	issn = "",
-	doi = "",
-	author = "M. Mazzoleni and M. Scandella and S. Formentin and F. Previdi",
+@article{MAZZOLENI2018622,
+title = "Identification of nonlinear dynamical system with synthetic data: a preliminary investigation",
+journal = "IFAC-PapersOnLine",
+volume = "51",
+number = "15",
+pages = "622 - 627",
+year = "2018",
+note = "18th IFAC Symposium on System Identification SYSID 2018",
+issn = "2405-8963",
+doi = "https://doi.org/10.1016/j.ifacol.2018.09.227",
+author = "M. Mazzoleni and M. Scandella and S. Formentin and F. Previdi",
+keywords = "System Identification, Semi-Supervised Learning, Regularization"
 }
 ```
+
