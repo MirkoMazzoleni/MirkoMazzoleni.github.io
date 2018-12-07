@@ -26,20 +26,21 @@ This paper proposes the use of a change detection algorithm to monitor the degra
 #### Reference
 
 <blockquote>
-	M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi, "Condition monitoring of electro-mechanical actuators for aerospace using batch change detection algorithms",  <strong> 2nd IEEE Conference on Control Technology and Applications (CCTA) </strong>, Copenhagen, Denmark, 2018. <a href=""> </a>
+	M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi, "Condition monitoring of electro-mechanical actuators for aerospace using batch change detection algorithms",  <strong> 2nd IEEE Conference on Control Technology and Applications (CCTA) </strong>, Copenhagen, Denmark, 2018. <a href="https://doi.org/10.1109/CCTA.2018.8511334"> doi:10.1109/CCTA.2018.8511334 </a>, ISBN: 978-1-5386-7698-1, pp. 1747-1752.
 </blockquote>
 
 #### Bibtex
 ```
-@article{,
-	title = ""Condition monitoring of electro-mechanical actuators for aerospace using batch change detection algorithms",
-	journal = "2nd IEEE Conference on Control Technology and Applications (CCTA)",
-	volume = "",
-	number = "",
-	pages = "",
-	year = "2018",
-	issn = "",
-	doi = "",
-	author = "M. Mazzoleni and M. Scandella and Y. Maccarana and F. Previdi and G. Pispola and N. Porzi",
-}
+@INPROCEEDINGS{8511334, 
+author={M. Mazzoleni and M. Scandella and Y. Maccarana and F. Previdi and G. Pispola and N. Porzi}, 
+booktitle={2018 IEEE Conference on Control Technology and Applications (CCTA)}, 
+title={Condition Monitoring of Electro-Mechanical Actuators for Aerospace Using Batch Change Detection Algorithms}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={1747-1752}, 
+keywords={aerospace industry;condition monitoring;electromechanical actuators;batch change detection algorithms;mechanical components;aerospace industry;test bench;condition monitoring;electro-mechanical actuators;leveraging;Degradation;Actuators;Monitoring;Condition monitoring;Estimation;Aerospace industry;Standards}, 
+doi={10.1109/CCTA.2018.8511334}, 
+ISSN={}, 
+month={Aug},}
 ```
