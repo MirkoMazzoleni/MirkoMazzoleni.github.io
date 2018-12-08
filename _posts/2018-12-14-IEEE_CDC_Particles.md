@@ -8,7 +8,7 @@ tags: [ML]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, S. Formentin and F. Previdi"       
 post-card-type: research
-card-image: ../images/2018-08-24-IEEE_CCTA_Reprise/chimera.PNG
+card-image: ../images/2018-12-14-IEEE_CDC_Particles/chimera.PNG
 ---
 
 
