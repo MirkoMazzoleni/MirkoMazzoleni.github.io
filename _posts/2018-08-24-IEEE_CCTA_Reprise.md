@@ -8,7 +8,7 @@ tags: [FaultDetection, Matlab, ML]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi"       
 post-card-type: research
-card-image: ../images/2018-08-24-IEEE_CCTA_Reprise/change_detection_batch.png
+card-image: ../images/2018-08-24-IEEE_CCTA_Reprise/change_detection_batch.jpg
 ---
 
 

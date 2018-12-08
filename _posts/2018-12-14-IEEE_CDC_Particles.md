@@ -6,9 +6,9 @@ author: Mirko Mazzoleni
 category: Conference
 tags: [ML]
 comments: true
-authors: "M. Mazzoleni, M. Scandella, S. Formentin and F. Previdi"       
+authors: "M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi"       
 post-card-type: research
-card-image: ../images/2018-12-14-IEEE_CDC_Particles/chimera.PNG
+card-image: ../images/2018-12-14-IEEE_CDC_Particles/chimera.jpg
 ---
 
 
