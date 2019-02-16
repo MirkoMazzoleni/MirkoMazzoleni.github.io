@@ -30,7 +30,7 @@ expressed as the mean of the word’s vectors that compose the
 phrase, after preprocessing steps. The sentence representation is
 finally compared with each emotion’s word vector, to find the
 most representative with respect to the sentence’s vector
- [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2018/09/Unsupervised-Learning-of-Fundamental-Emotional-states-via-word-embeddings.pdf)
+ [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2019/01/2018-IEEE-SSCI-Unsupervised-Learning-of-Fundamental-Emotional-states-via-word-embeddings_copyright.pdf)
  </strong>, <strong>Code</strong>]
 
 

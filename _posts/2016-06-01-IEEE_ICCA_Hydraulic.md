@@ -13,7 +13,7 @@ card-image: ../images/2016-06-01-IEEE_ICCA_Hydraulic/bench.png
 
 ### Abstract
 
-In this work, a physical non-linear model of an Electro-Hydraulic Actuator has been developed. Each system component (valves, pipes, cylinders) and their interactions have been modeled by means of conservation and constitutive laws. The actuator dynamics, with lumped-parameter element models, have been treated accurately, with special attention given to modeling friction. Finally, a global parametric-identification procedure has been performed for all unknown parameters. Throughout this paper all the modeling assumptions and results from system identification are verified with experimental data. [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2016-IEEE-ICCA-Holmes-Load-system-modeling.pdf)</strong>, <strong>Code</strong>]
+In this work, a physical non-linear model of an Electro-Hydraulic Actuator has been developed. Each system component (valves, pipes, cylinders) and their interactions have been modeled by means of conservation and constitutive laws. The actuator dynamics, with lumped-parameter element models, have been treated accurately, with special attention given to modeling friction. Finally, a global parametric-identification procedure has been performed for all unknown parameters. Throughout this paper all the modeling assumptions and results from system identification are verified with experimental data. [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2019/01/2016-IEEE-ICCA-Holmes-Load-system-modeling_copyright.pdf)</strong>, <strong>Code</strong>]
 
 
 
