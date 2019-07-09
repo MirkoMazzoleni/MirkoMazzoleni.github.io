@@ -23,7 +23,7 @@
 
         {% if sameTagCount >= minCommonTags %}
 
-            {% if post.post-card-type == 'article' or post.post-card-type == 'research'%}
+            {% if post.post-card-type == 'article' %}
                 <li class="mix" style="display: inline-block;" data-bound="">
                     <a href="{{ post.url }}">
                         <div class="card card--article not-visible">
@@ -79,6 +79,34 @@
                      </div>
                 </a>
              {% endif %}
+
+            {% if post.post-card-type == 'research' %}
+                <a href="{{ post.url }}">
+                    <div class="card card--article not-visible" >
+                        <div class="card-body">
+                            <div class="card-title">{{ post.title }} </div>
+                             <span class="post-authors"> {{ page.authors }} </span>
+                            <div class="card-description card-description--clamp-0">
+                                {{ post.content | strip_html  | remove: 'Abstract' | truncate: 350 }}
+                            </div>
+                        </div>
+                        <div class="card-hero">
+                            <div class="card-image card-image--size-185" data-url="{{ post.card-image }}"></div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-wrapper" layout="row bottom-left">
+                                <div class="card-type">{{ post.date | date: "%F"}}</div>
+                                <div class="card-cat">
+                                    {% for cat in post.categories %}
+                                        {{ cat }} &nbsp;&nbsp;
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </a>
+             {% endif %}
+
 
 
           {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
