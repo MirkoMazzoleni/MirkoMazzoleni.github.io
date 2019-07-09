@@ -4,7 +4,7 @@ title: "Fault detection in airliner electro-mechanical actuators via hybrid part
 date: 2017-07-14
 author: Mirko Mazzoleni
 category: Conference
-tags: [Modeling, FaultDetection, Matlab]
+tags: [ModelBased, FaultDiagnosis, HOLMES]
 comments: true
 authors: "M. Mazzoleni, G. Maroni, Y. Maccarana, S. Formentin, F. Previdi"       
 post-card-type: research

@@ -4,7 +4,7 @@ title: "Control-oriented modeling of SKU-level demand in retail food market"
 date: 2017-07-14
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML, R, Cluster]
+tags: [ML, Cluster]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi, S. M. Savaresi"       
 post-card-type: research

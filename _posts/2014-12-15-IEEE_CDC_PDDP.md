@@ -5,7 +5,7 @@ and application to aerospace electro-mechanical actuators"
 date: 2014-12-15
 author: Mirko Mazzoleni
 category: Conference
-tags: [Matlab, FaultDetection, Cluster, ML]
+tags: [FaultDiagnosis, Cluster, ML, HOLMES]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi"      
 post-card-type: research
@@ -41,17 +41,17 @@ M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi, "Fault Detection via 
 
 #### Bibtex
 ```
-@INPROCEEDINGS{7040292, 
-	author={M. Mazzoleni and S. Formentin and F. Previdi and S. M. Savaresi}, 
-	booktitle={53rd IEEE Conference on Decision and Control}, 
-	title={Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators}, 
-	year={2014}, 
-	volume={}, 
-	number={}, 
-	pages={5770-5775}, 
-	doi={10.1109/CDC.2014.7040292}, 
+@INPROCEEDINGS{7040292,
+	author={M. Mazzoleni and S. Formentin and F. Previdi and S. M. Savaresi},
+	booktitle={53rd IEEE Conference on Decision and Control},
+	title={Fault Detection via modified Principal Direction Divisive Partitioning and application to aerospace electro-mechanical actuators},
+	year={2014},
+	volume={},
+	number={},
+	pages={5770-5775},
+	doi={10.1109/CDC.2014.7040292},
 	ISSN={0191-2216},
-	ISBN={978-1-4673-6090-6}, 
+	ISBN={978-1-4673-6090-6},
 	month={Dec},
 }
 ```

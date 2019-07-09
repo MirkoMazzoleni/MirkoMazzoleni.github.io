@@ -4,7 +4,7 @@ title: "Classification of light charged particles via learning-based system iden
 date: 2018-12-14
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML]
+tags: [SysID, ML]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi"       
 post-card-type: research
@@ -29,16 +29,16 @@ This paper presents a nonparametric learning approach for the automatic classifi
 
 #### Bibtex
 ```
-@INPROCEEDINGS{8618946, 
-author={M. {Mazzoleni} and M. {Scandella} and S. {Formentin} and F. {Previdi}}, 
-booktitle={2018 IEEE Conference on Decision and Control (CDC)}, 
-title={Classification of Light Charged Particles Via Learning-Based System Identification}, 
-year={2018}, 
-volume={}, 
-number={}, 
-pages={6053-6058}, 
-keywords={Kernel;Detectors;Atmospheric measurements;Particle measurements;Ions;Covariance matrices;Atomic measurements}, 
-doi={10.1109/CDC.2018.8618946}, 
-ISSN={2576-2370}, 
+@INPROCEEDINGS{8618946,
+author={M. {Mazzoleni} and M. {Scandella} and S. {Formentin} and F. {Previdi}},
+booktitle={2018 IEEE Conference on Decision and Control (CDC)},
+title={Classification of Light Charged Particles Via Learning-Based System Identification},
+year={2018},
+volume={},
+number={},
+pages={6053-6058},
+keywords={Kernel;Detectors;Atmospheric measurements;Particle measurements;Ions;Covariance matrices;Atomic measurements},
+doi={10.1109/CDC.2018.8618946},
+ISSN={2576-2370},
 month={Dec},}
 ```

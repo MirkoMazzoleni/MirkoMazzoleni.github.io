@@ -4,7 +4,7 @@ title: "Development and Experimental Testing of a Health Monitoring System of El
 date: 2018-06-21
 author: Mirko Mazzoleni
 category: Conference
-tags: [FaultDetection]
+tags: [FaultDiagnosis, REPRISE]
 comments: true
 authors: "F. Previdi, Y. Maccarana, M. Mazzoleni, M. Scandella, G. Pispola and N. Porzi"       
 post-card-type: research
@@ -52,17 +52,17 @@ an effective way.
 
 #### Bibtex
 ```
-@INPROCEEDINGS{8442734, 
-author={F. Previdi and Y. Maccarana and M. Mazzoleni and M. Scandella and G. Pispola and N. Porzi}, 
-booktitle={2018 26th Mediterranean Conference on Control and Automation (MED)}, 
-title={Development and Experimental Testing of a Health Monitoring System of Electro-Mechanical Actuators for Small Airplanes}, 
-year={2018}, 
-volume={}, 
-number={}, 
-pages={673-678}, 
-keywords={Actuators;Monitoring;Degradation;Performance evaluation;Current measurement;Aircraft;Fasteners}, 
-doi={10.1109/MED.2018.8442734}, 
-ISSN={2473-3504}, 
+@INPROCEEDINGS{8442734,
+author={F. Previdi and Y. Maccarana and M. Mazzoleni and M. Scandella and G. Pispola and N. Porzi},
+booktitle={2018 26th Mediterranean Conference on Control and Automation (MED)},
+title={Development and Experimental Testing of a Health Monitoring System of Electro-Mechanical Actuators for Small Airplanes},
+year={2018},
+volume={},
+number={},
+pages={673-678},
+keywords={Actuators;Monitoring;Degradation;Performance evaluation;Current measurement;Aircraft;Fasteners},
+doi={10.1109/MED.2018.8442734},
+ISSN={2473-3504},
 ISBN = {978-1-5386-7890-9},
 month={June},}
 ```

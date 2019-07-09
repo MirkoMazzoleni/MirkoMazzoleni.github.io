@@ -4,7 +4,7 @@ title: "A comparison of data-driven fault detection methods with application to 
 date: 2017-07-14
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML, FaultDetection]
+tags: [ML, FaultDiagnosis, HOLMES]
 comments: true
 authors: "M. Mazzoleni, Y. Maccarana, F. Previdi"       
 post-card-type: research
@@ -24,7 +24,7 @@ A large experimental activity has been carried out to perform acquisitions with 
 #### Reference
 
 <blockquote>
-M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators", <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.1837"> doi: 10.1016/j.ifacol.2017.08.1837 </a>, ISSN: 2405-8963, pp. 12797 - 12802. 
+M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators", <strong>20th IFAC World Congress </strong>, Toulouse, France, 2017, <a href="https://doi.org/10.1016/j.ifacol.2017.08.1837"> doi: 10.1016/j.ifacol.2017.08.1837 </a>, ISSN: 2405-8963, pp. 12797 - 12802.
 </blockquote>
 
 #### Bibtex

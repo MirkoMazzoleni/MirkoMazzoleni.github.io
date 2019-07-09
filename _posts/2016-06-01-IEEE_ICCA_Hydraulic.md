@@ -4,7 +4,7 @@ title: "Modeling and identification of an Electro-Hydraulic Actuator"
 date: 2016-06-01
 author: Mirko Mazzoleni
 category: Conference
-tags: [Modeling, Matlab]
+tags: [ModelBased]
 comments: true
 authors: "A. L. Cologni, M. Mazzoleni, F. Previdi"       
 post-card-type: research
@@ -26,16 +26,16 @@ A. L. Cologni, M. Mazzoleni and F. Previdi, "Modeling and identification of an E
 
 #### Bibtex
 ```
-@INPROCEEDINGS{7505299, 
-	author={A. L. Cologni and M. Mazzoleni and F. Previdi}, 
-	booktitle={2016 12th IEEE International Conference on Control and Automation (ICCA)}, 
-	title={Modeling and identification of an Electro-Hydraulic Actuator}, 
-	year={2016}, 
-	volume={}, 
-	number={}, 
-	pages={335-340}, 
-	doi={10.1109/ICCA.2016.7505299}, 
-	ISSN={}, 
+@INPROCEEDINGS{7505299,
+	author={A. L. Cologni and M. Mazzoleni and F. Previdi},
+	booktitle={2016 12th IEEE International Conference on Control and Automation (ICCA)},
+	title={Modeling and identification of an Electro-Hydraulic Actuator},
+	year={2016},
+	volume={},
+	number={},
+	pages={335-340},
+	doi={10.1109/ICCA.2016.7505299},
+	ISSN={},
 	ISBN={978-1-5090-1738-6},
 	month={June},
 }

@@ -4,7 +4,7 @@ title: "Kernel manifold regression for the coupled electric drives dataset"
 date: 2018-04-12
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID, ML, Matlab]
+tags: [SysID, ML, SSI]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, F. Previdi"       
 post-card-type: research

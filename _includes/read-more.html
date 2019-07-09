@@ -3,10 +3,10 @@
 
     <div layout="rows center-spread">
     {% assign maxRelated = 2 %}
-    {% assign minCommonTags =  1 %}
+    {% assign minCommonTags =  2 %}
     {% assign maxRelatedCounter = 0 %}
 
-      {% for post in site.posts %}
+      {% for post in site.posts %}  
 
         {% assign sameTagCount = 0 %}
         {% assign commonTags = '' %}
@@ -23,7 +23,7 @@
 
         {% if sameTagCount >= minCommonTags %}
 
-            {% if post.post-card-type == 'article' %}
+            {% if post.post-card-type == 'article' or post.post-card-type == 'research'%}
                 <li class="mix" style="display: inline-block;" data-bound="">
                     <a href="{{ post.url }}">
                         <div class="card card--article not-visible">

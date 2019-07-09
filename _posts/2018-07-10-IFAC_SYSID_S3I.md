@@ -4,7 +4,7 @@ title: "Identification of nonlinear dynamical system with synthetic data: a prel
 date: 2018-07-10
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID, ML, Matlab]
+tags: [SysID, ML, SSI]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi"       
 post-card-type: research
@@ -54,4 +54,3 @@ author = "M. Mazzoleni and M. Scandella and S. Formentin and F. Previdi",
 keywords = "System Identification, Semi-Supervised Learning, Regularization"
 }
 ```
-

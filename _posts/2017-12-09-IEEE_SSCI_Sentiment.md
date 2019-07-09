@@ -4,7 +4,7 @@ title: "Unsupervised Learning of Fundamental Emotional States via Word Embedding
 date: 2017-12-09
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML, Python]
+tags: [ML]
 comments: true
 authors: "M. Mazzoleni, G. Maroni, F. Previdi"       
 post-card-type: research
@@ -46,15 +46,15 @@ most representative with respect to the sentence’s vector
 
 #### Bibtex
 ```
-@article{8280819, 
-author={M. Mazzoleni and G. Maroni and F. Previdi}, 
-booktitle={2017 IEEE Symposium Series on Computational Intelligence (SSCI)}, 
-title={Unsupervised learning of fundamental emotional states via word embeddings}, 
-year={2017}, 
-volume={}, 
-number={}, 
-pages={1-6}, 
-doi={10.1109/SSCI.2017.8280819}, 
-ISBN={978-1-5386-2726-6}, 
+@article{8280819,
+author={M. Mazzoleni and G. Maroni and F. Previdi},
+booktitle={2017 IEEE Symposium Series on Computational Intelligence (SSCI)},
+title={Unsupervised learning of fundamental emotional states via word embeddings},
+year={2017},
+volume={},
+number={},
+pages={1-6},
+doi={10.1109/SSCI.2017.8280819},
+ISBN={978-1-5386-2726-6},
 }
 ```
