@@ -38,7 +38,7 @@ highlighter: rouge
 
     
 # Pagination
-paginate: 9
+paginate: 6
 
 # Social
 social:

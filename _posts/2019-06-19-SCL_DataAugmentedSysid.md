@@ -15,7 +15,7 @@ card-image: ../images/2019-06-19-SCL_DataAugmentedSysid/dynamic_connections.png
 ### Abstract
 This paper presents a novel nonparametric approach to the identification of nonlinear dynamicalsystems. The proposed methodology exploits the potential of manifold learning on an artificiallyaugmented dataset, obtained without running new experiments on the plant. The additional dataare employed for approximating the manifold where input regressors lie. The knowledge of themanifold acts as a prior information on the system, that induces a proper regularization term on theidentification cost. The new regularization term, as opposite to the standard Tikhonov one, enforceslocal smoothness of the function along the manifold. A graph-based algorithm tailored to dynamicalsystems is proposed to generate the augmented dataset. The hyperparameters of the method, alongwith the order of the system, are estimated from the available data. Numerical results on a benchmarkNonlinear Finite Impulse Response (NFIR) system show that the proposed approach may outperformthe state of the art nonparametric methods.
  [<strong>[Paper]()</strong>,
-<strong>[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0167691119300532)</strong>
+<strong>[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0167691119300532)</strong>,
 <strong>Code</strong>]
 
 
