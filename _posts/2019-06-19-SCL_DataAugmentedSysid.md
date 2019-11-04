@@ -6,7 +6,7 @@ author: Mirko Mazzoleni
 category: Journal
 tags: [SysID, ML, SSI]
 comments: true
-authors: " S. Formentin, M. Mazzoleni, M. Scandella, F. Previdi"       
+authors: "S. Formentin, M. Mazzoleni, M. Scandella, F. Previdi"       
 post-card-type: research
 card-image: ../images/2019-06-19-SCL_DataAugmentedSysid/dynamic_connections.png
 ---
