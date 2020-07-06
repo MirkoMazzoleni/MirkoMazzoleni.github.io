@@ -15,10 +15,10 @@ I am/was onwer of the following courses:
 
 **University of Bergamo: master degree courses**
 
-* Data Science and Automation 6 c.f.u. (in English): A.Y. 2019/2020 [[**Course website**](https://cal.unibg.it/courses/data-science-and-automation/)]
+* Data Science and Automation 6 c.f.u. (in English): A.Y. 2019/2020 [[**Website**](https://cal.unibg.it/courses/data-science-and-automation/)]
 
-* Model Identification and Data Analysis 6 c.f.u. (in Italian): A.Y. 2019/2020 [[**Course website**](https://cal.unibg.it/cal/courses/identificazione-dei-modelli-e-analisi-dei-dati-modulo-6-cfu/)]
+* Model Identification and Data Analysis 6 c.f.u. (in Italian): A.Y. 2019/2020 [[**Website**](https://cal.unibg.it/cal/courses/identificazione-dei-modelli-e-analisi-dei-dati-modulo-6-cfu/)]
 
-* Model Identification and Data Analysis 6 c.f.u. (in Italian): A.Y. 2018/2019 [[**Course website**](https://cal.unibg.it/cal/courses/identificazione-dei-modelli-e-analisi-dei-dati-modulo-6-cfu/)]
+* Model Identification and Data Analysis 6 c.f.u. (in Italian): A.Y. 2018/2019 [[**Website**](https://cal.unibg.it/cal/courses/identificazione-dei-modelli-e-analisi-dei-dati-modulo-6-cfu/)]
 
-* Model Identification and Data Analysis 6 c.f.u. (in Italian): A.Y. 2017/2018 [[**Course website**](https://cal.unibg.it/cal/courses/identificazione-dei-modelli-e-analisi-dei-dati-modulo-6-cfu/)]
+* Model Identification and Data Analysis 6 c.f.u. (in Italian): A.Y. 2017/2018 [[**Website**](https://cal.unibg.it/cal/courses/identificazione-dei-modelli-e-analisi-dei-dati-modulo-6-cfu/)]
