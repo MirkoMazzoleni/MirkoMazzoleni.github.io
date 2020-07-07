@@ -10,8 +10,7 @@ I am/was onwer of the following courses:
 **University of Bergamo: Ph.D. courses**
 
 * Advanced methods for system identification A.Y. 2019/2020 (Ph.D. Engineering and Applied Sciences)
-[[**Slides**](https://drive.google.com/file/d/14YzlVGra_RNDuw2D5w0Bqy45J9PWoed4/view?usp=sharing)]
-[[**Code**](https://drive.google.com/file/d/1XxkCCG9TAWTUrOSiPH1BOd2-PCXwAyH1/view?usp=sharing)]
+[[**Slides - Code - Video lessons**](https://cal.unibg.it/courses/ph-d-course-advanced-methods-for-system-identification/#)]
 
 **University of Bergamo: master degree courses**
 
