@@ -19,5 +19,8 @@ You can download my CV [**here**](assets/docs/cv.pdf)
 
 I have published the following books:
 
+* Mirko Mazzoleni, Gianpietro Di Rito and Fabio Previdi [*"Electro-Mechanical Actuators for the More Electric Aircraft"*](https://www.springer.com/it/book/9783030617981), Springer International Publishing, ISBN: 978-3-030-61799-8.
+
+
 * Mirko Mazzoleni, [*"Learning meets control: data analytics for dynamical systems"*](https://www.amazon.it/Learning-control-analytics-dynamical-system/dp/8867741632), Bruno Mondadori, Research Series, ISBN: 8867741632,
 EAN: 9788867741632

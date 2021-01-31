@@ -32,6 +32,6 @@ pages = "105153",
 year = "2020",
 issn = "2352-3409",
 author = "Mirko Mazzoleni and Matteo Scandella and Fabio Previdi and Giulio Pispola",
-doi = "https://doi.org/10.1016/j.dib.2020.105153"
+doi = "10.1016/j.dib.2020.105153"
 }
 ```
