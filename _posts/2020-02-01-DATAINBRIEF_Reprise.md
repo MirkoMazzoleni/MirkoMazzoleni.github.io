@@ -19,7 +19,7 @@ This article describes the data acquired during the first test activitycarried o
 
 #### Reference
 <blockquote>
-	M. Mazzoleni, F. Previdi, M. Scandella and G. Pispola, "Data on the first endurance activity of a Brushless DC motor for aerospace applications", <strong>Elsevier Data in Brief</strong>, 2020. <a href="https://doi.org/10.1016/j.dib.2020.105153.">, doi: 10.1016/j.dib.2020.105153. </a>, ISSN: 2352-3409, vol. 29.
+	M. Mazzoleni, F. Previdi, M. Scandella and G. Pispola, "Data on the first endurance activity of a Brushless DC motor for aerospace applications", <strong>Elsevier Data in Brief</strong>, 2020, <a href="https://doi.org/10.1016/j.dib.2020.105153."> doi: 10.1016/j.dib.2020.105153 </a>, ISSN: 2352-3409, vol. 29.
 </blockquote>
 
 #### Bibtex

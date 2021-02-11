@@ -19,7 +19,7 @@ In the last decade, kernel-based learning approaches typically employed for clas
 
 #### Reference
 <blockquote>
-M. Scandella, M. Mazzoleni, S. Formentin and F. Previdi, "A Note on the Numerical Solutions of Kernel-Based Learning Problems," in <strong>IEEE Transactions on Automatic Control</strong>, vol. 66, no. 2, pp. 940-947, Feb. 2021, <a href="https://doi.org/10.1109/TAC.2020.2989769.">, doi: 10.1109/TAC.2020.2989769.</a>, ISSN: 1558-2523.
+M. Scandella, M. Mazzoleni, S. Formentin and F. Previdi, "A Note on the Numerical Solutions of Kernel-Based Learning Problems," in <strong>IEEE Transactions on Automatic Control</strong>, vol. 66, no. 2, pp. 940-947, Feb. 2021, <a href="https://doi.org/10.1109/TAC.2020.2989769"> doi: 10.1109/TAC.2020.2989769 </a>, ISSN: 1558-2523.
 </blockquote>
 
 #### Bibtex

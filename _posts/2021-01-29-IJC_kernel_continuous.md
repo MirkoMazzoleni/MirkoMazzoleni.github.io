@@ -19,7 +19,7 @@ In many engineering applications, continuous-time models are preferred to discre
 
 #### Reference
 <blockquote>
-M. Scandella, M. Mazzoleni, S. Formentin and F. Previdi, "A Note on the Numerical Solutions of Kernel-Based Learning Problems," in <strong>International Journal of Control</strong>, vol. 0, no. 0, pp. 1-14, Feb. 2021, <a href="https://doi.org/10.1080/00207179.2020.1868580.">, doi: 10.1080/00207179.2020.1868580.</a>.
+M. Scandella, M. Mazzoleni, S. Formentin and F. Previdi, "A Note on the Numerical Solutions of Kernel-Based Learning Problems," in <strong>International Journal of Control</strong>, vol. 0, no. 0, pp. 1-14, Feb. 2021, <a href="https://doi.org/10.1080/00207179.2020.1868580."> doi: 10.1080/00207179.2020.1868580.</a>.
 </blockquote>
 
 #### Bibtex

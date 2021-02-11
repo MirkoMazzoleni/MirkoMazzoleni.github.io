@@ -30,7 +30,7 @@ The book is written with the idea of providing practical guidelines on the devel
 
 #### Reference
 <blockquote>
-M. Mazzoleni, G. Di Rito and F. Previdi, "Electro-Mechanical Actuators for the More Electric Aircraft," in <strong>Advances in Industrial Control</strong>, Springer International Publishing, <a href="https://doi.org/10.1007/978-3-030-61799-8.">, doi: 10.1007/978-3-030-61799-8.</a>, ISBN: 978-3-030-61799-8.
+M. Mazzoleni, G. Di Rito and F. Previdi, "Electro-Mechanical Actuators for the More Electric Aircraft," in <strong>Advances in Industrial Control</strong>, Springer International Publishing, <a href="https://doi.org/10.1007/978-3-030-61799-8."> doi: 10.1007/978-3-030-61799-8</a>, ISBN: 978-3-030-61799-8.
 </blockquote>
 
 #### Bibtex
