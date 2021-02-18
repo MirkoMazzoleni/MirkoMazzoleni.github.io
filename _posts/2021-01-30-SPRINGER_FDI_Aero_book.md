@@ -36,7 +36,7 @@ M. Mazzoleni, G. Di Rito and F. Previdi, "Electro-Mechanical Actuators for the M
 #### Bibtex
 ```
 @book{doi:10.1007/978-3-030-61799-8,
-author =  Mirko   Mazzoleni  and  Gianpietro   Di Rito  and  Fabio   Previdi },
+author =  {Mirko   Mazzoleni  and  Gianpietro   Di Rito  and  Fabio   Previdi },
 title = {Electro-Mechanical Actuators for the More Electric Aircraft},
 isbn = {978-3-030-61799-8},
 year  = {2021},
