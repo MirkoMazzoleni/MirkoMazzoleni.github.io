@@ -4,10 +4,10 @@ title: "A Games of Tufte - Part II"
 date: 2016-09-20
 author: Mirko Mazzoleni
 category: Blog
-tags: [R, Kaggle, DataViz]
+tags: [R, DataViz]
 comments: true
 description: Visualization of Game of Thrones battles
-subtitle: 
+subtitle:
 post-card-type: image
 card-image: ../images/2016-08-06-games_of_tufte/unnamed-chunk-49-1.svg
 ---
@@ -44,7 +44,7 @@ The plots shows the number of won battles by each king, thanks a specific tactic
 
 ### Number of battles fought in summer and winter
 
-The plots shows the number of won battles by each king fought in summer (1) or winter (0), with a different color for each year in which the battle was fought. The poor Robb Stark died during the Red Wedding in year $$299$$, so he did not fight any battle during year $$300$$. We can see that winter has finally come in year $$300$$. Brace yourself!! 
+The plots shows the number of won battles by each king fought in summer (1) or winter (0), with a different color for each year in which the battle was fought. The poor Robb Stark died during the Red Wedding in year $$299$$, so he did not fight any battle during year $$300$$. We can see that winter has finally come in year $$300$$. Brace yourself!!
 
 ![]({{ site.baseurl }}/images/2016-08-06-games_of_tufte/unnamed-chunk-42-1.svg)<!-- -->
 
@@ -54,7 +54,7 @@ This plots shows the preferred king versus whose each king fought his battles.
 
 ![]({{ site.baseurl }}/images/2016-08-06-games_of_tufte/unnamed-chunk-43-1.svg)<!-- -->
 
-By inspecting the plot, it seems strange that *Balon/Euron Greyjoy* attack himself. The battle considered is the *Sack of Torrhen's Square*.  In fact, the defender king would be *Bran Stark*, since Robb is dead. I make the decision to substitute the defender king with *Robb Stark* indicating that the defenders are the Stark's. 
+By inspecting the plot, it seems strange that *Balon/Euron Greyjoy* attack himself. The battle considered is the *Sack of Torrhen's Square*.  In fact, the defender king would be *Bran Stark*, since Robb is dead. I make the decision to substitute the defender king with *Robb Stark* indicating that the defenders are the Stark's.
 
 ```
                       name       attacker_king       defender_king
@@ -80,7 +80,7 @@ The plot seems to suggest that there is a linear relationship between the size o
 
 ## Graph of Thrones
 
-The following section (which owes a lot to the Kaggle's user [ColinFraser](https://www.kaggle.com/colinfraser/d/mylesoneill/game-of-thrones/battles-investigation)), deals with the use of graph algorithms to analyse the social relations between houses, during the battles. By using the variables *attacker_i* and *defender_i*, with $$i=1\dots 4$$, is possible to build a graph which vertices are the house names, and an edge is present between two of them if a battle has been fought between the two houses. 
+The following section (which owes a lot to the Kaggle's user [ColinFraser](https://www.kaggle.com/colinfraser/d/mylesoneill/game-of-thrones/battles-investigation)), deals with the use of graph algorithms to analyse the social relations between houses, during the battles. By using the variables *attacker_i* and *defender_i*, with $$i=1\dots 4$$, is possible to build a graph which vertices are the house names, and an edge is present between two of them if a battle has been fought between the two houses.
 
 The direction of the edge is from a loser to a winner, and a darker edge color show how many battles are present with that edge direction (that is, with that battle outcome): the darker, the higher. It can be seen that the Frey's fought with many houses and won many battles, and how the Nigth's Watch are isolated from the rest of the world. Interestingly, even the Tyrell's fought only versus the Greyjoy's. Both the Tully's and the Stark's won more battles versus the Lannister's with respect to how many they lost versus them, but for the latter house, they are behind the Greyjoy as direct matches won. Interesting is the loop around house Baratheon, which represent the figths of Stannis versus his brother Renly.
 
@@ -93,7 +93,7 @@ The direction of the edge is from a loser to a winner, and a darker edge color s
 By counting the in-degree (number of battles won) and the total degee of a node (number of battle fought), is possible to compute how the house performed in terms of efficiency. Since the number of battles for each house is small, we employ the *Laplace correction* to correct for the small sample size:
 
 $$p(win)=\frac{n+1}{n+m+2}$$
-      
+
 where $$n$$ is the number of won battles, $$m$$ is the number of lost battles and $$p(win)$$ is the probability to win a battle.
 
 
@@ -112,27 +112,27 @@ The results show that the house Frey is the most powerful, and the $$11.7%$$ of 
 
 
 ```
-                        Frey                   Lannister 
-                  0.11706463                  0.10476410 
-                      Bolton                   Baratheon 
-                  0.09134930                  0.08013144 
-               Night's Watch                     Greyjoy 
-                  0.06422775                  0.04357728 
-                       Stark          Brotherhood without Banners 
-                  0.04331037                  0.04023057 
-                     Bracken                       Tully 
-                  0.04023057                  0.03713693 
-                       Darry                    Karstark 
-                  0.03713693                  0.03440543 
-                     Mormont                      Glover 
-                  0.03440543                  0.03440543 
-            Brave Companions                   Mallister 
-                  0.02823198                  0.02823198 
-                   Free folk                      Tyrell 
-                  0.02823198                  0.02823198 
-                   Blackwood                      Thenns 
-                  0.02823198                  0.02823198 
-                      Giants 
+                        Frey                   Lannister
+                  0.11706463                  0.10476410
+                      Bolton                   Baratheon
+                  0.09134930                  0.08013144
+               Night's Watch                     Greyjoy
+                  0.06422775                  0.04357728
+                       Stark          Brotherhood without Banners
+                  0.04331037                  0.04023057
+                     Bracken                       Tully
+                  0.04023057                  0.03713693
+                       Darry                    Karstark
+                  0.03713693                  0.03440543
+                     Mormont                      Glover
+                  0.03440543                  0.03440543
+            Brave Companions                   Mallister
+                  0.02823198                  0.02823198
+                   Free folk                      Tyrell
+                  0.02823198                  0.02823198
+                   Blackwood                      Thenns
+                  0.02823198                  0.02823198
+                      Giants
                   0.02823198
 ```
 
@@ -150,4 +150,3 @@ sum(pr$vector)
   * [Systematic Analysis on GoT Battles](https://www.kaggle.com/gowrishankarin/d/mylesoneill/game-of-thrones/analysis-on-battles) - Gowri Shankar
   * [Battles investigation](https://www.kaggle.com/colinfraser/d/mylesoneill/game-of-thrones/battles-investigation) - ColinFraser
   * [Tufte in R](http://motioninsocial.com/tufte/) - Lukasz Piwek
-  

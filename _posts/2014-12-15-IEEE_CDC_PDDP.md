@@ -5,7 +5,7 @@ and application to aerospace electro-mechanical actuators"
 date: 2014-12-15
 author: Mirko Mazzoleni
 category: Conference
-tags: [FaultDiagnosis, Cluster, ML, HOLMES]
+tags: [FaultDiagnosis, Clustering, MachineLearning, HOLMES]
 comments: true
 authors: "M. Mazzoleni, S. Formentin, F. Previdi and S. M. Savaresi"      
 post-card-type: research

@@ -4,7 +4,7 @@ title: "A Note on the Numerical Solutions of Kernel-Based Learning Problems"
 date: 2020-04-23
 author: Mirko Mazzoleni
 category: Journal
-tags: [SysID, ML, SSI]
+tags: [SysID]
 comments: true
 authors: "M. Scandella, M. Mazzoleni, S. Formentin, F. Previdi"       
 post-card-type: research

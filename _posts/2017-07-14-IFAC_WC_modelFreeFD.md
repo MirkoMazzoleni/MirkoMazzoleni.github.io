@@ -4,7 +4,7 @@ title: "A comparison of data-driven fault detection methods with application to 
 date: 2017-07-14
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML, FaultDiagnosis, HOLMES]
+tags: [MachineLearning, FaultDiagnosis, HOLMES]
 comments: true
 authors: "M. Mazzoleni, Y. Maccarana, F. Previdi"       
 post-card-type: research

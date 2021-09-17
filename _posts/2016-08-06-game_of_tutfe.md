@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "A Games of Tufte - Part I"
-subtitle: 
+subtitle:
 date: 2016-08-06
 author: Mirko Mazzoleni
 category: Blog
-tags: [R, Kaggle, DataViz]
+tags: [R, DataViz]
 comments: true
 description: Visualization of Game of Thrones battles
 post-card-type: image
-card-image: /images/2016-08-06-games_of_tufte/unnamed-chunk-9-1.svg 
+card-image: /images/2016-08-06-games_of_tufte/unnamed-chunk-9-1.svg
 ---
 <!-- image -->
 This report concerns the first part of an exploratory data analysis based on the Games of Thrones dataset hosted on [Kaggle](https://www.kaggle.com/mylesoneill/game-of-thrones). The aim of this work is to familiarize with the data for subsequent analysis, and using the Tufte design rules to represent the plots. During the process, personal domain knowledge (acquired from books and not the tv series) is used to motivate hypothesis and decisions. Since there aren't motivations or questions that brought me to collect data, in order to answer to them, we let the Exploratory Data Analysis phase to generate questions for us. A sound answer to those questions would require at least another dataset, so we let to fix in mind the fact that we are simply describing the dataset at hand, without the temptation to make inferences or other types of final statements.
@@ -17,7 +17,7 @@ This report concerns the first part of an exploratory data analysis based on the
 The entire code for this post can be found [here](https://github.com/MirkoMazzoleni/MirkoMazzoleni.github.io/blob/master/Rmarkdowns/2016-08-05-game_of_tutfe.Rmd).
 
 
-## Data cleaning and questions generation 
+## Data cleaning and questions generation
 
 After having load the required libraries and the dataset, which contains information about the main battles in the reign of Westeros during the [War of the Five Kings](ttp://awoiaf.westeros.org/index.php/War_of_the_Five_Kings), let's first take an overview of the dataset at hand by checking the variables at our disposal. We can see $$38$$ observations for each of the $$25$$ variables. The next step will be to gain confidence with the features and the values they can take.
 
@@ -52,7 +52,7 @@ After having load the required libraries and the dataset, which contains informa
 
 ### Question, Expectation and Answers
 
-In this section, we will follow the following logical framework: 
+In this section, we will follow the following logical framework:
 
 1. Letting the exploration to generate the questions
 2. Setting an expectation for what the data will tell us
@@ -70,7 +70,7 @@ The variable represents the attacker's king. A slash indicates that the king cha
 ```
 ""  "Balon/Euron Greyjoy"  "Joffrey/Tommen Baratheon"  "Robb Stark"  "Stannis Baratheon"
 ```
-The fact, in some circumstances, that there isn't an attacking king is not an error: simply can be that there is no attacking king commanding the troops. 
+The fact, in some circumstances, that there isn't an attacking king is not an error: simply can be that there is no attacking king commanding the troops.
 In this case throwing away missing data can be detrimental, as they can be source of information. For example, a value of " " can mean "unknown" or "not applicable", so it should be encoded in that way. Usually I search for trend in missing data to see if they miss for a reason.
 
 **Question Q1**: Does the " " level mean something? **Expectation E1**: Yes, simply there's no king. **Answer A1**: The " " stands for "NoKing".
@@ -85,7 +85,7 @@ In this case throwing away missing data can be detrimental, as they can be sourc
 - Is the missing king due to the battle type? ==> NO, usually pitched battles have a king which guides the army, and troops without a king are expected to act as bandits, preferring a razing or ambush strategy:
 
 ```
-                  
+
                      FALSE TRUE
                        1    0
     ambush            10    0
@@ -96,7 +96,7 @@ In this case throwing away missing data can be detrimental, as they can be sourc
 - Is the missing king due to the attacker? ==> YES, the Brave Companions and the Brotherhood don't have a king:
 
 ```
-                               
+
                                   FALSE TRUE
     Baratheon                       6    0
     Bolton                          2    0
@@ -113,7 +113,7 @@ In this case throwing away missing data can be detrimental, as they can be sourc
 - Is the previous conclusion the right one? Let's Check for other associations. Seems that the Riverlands are land of no-one, and bandits or sellswords prefer to fight in that area!
 
 ```
-                   
+
                       FALSE TRUE
     Beyond the Wall     1    0
     The Crownlands      2    0
@@ -141,13 +141,13 @@ levels(battles$attacker_king)[match("",levels(battles$attacker_king))]="NoKing"
 This variable represents the defender's king. The levels are:
 
 ```
-""  "Balon/Euron Greyjoy"  "Joffrey/Tommen Baratheon"  "Mance Rayder"  "Renly Baratheon" 
+""  "Balon/Euron Greyjoy"  "Joffrey/Tommen Baratheon"  "Mance Rayder"  "Renly Baratheon"
     "Robb Stark"  "Stannis Baratheon"
 ```
 
 **Question Q3**: Does the " " level mean something? **Expectation E3**: Yes, simply there's no king. **Answer A3**: No king.
 
-From the data we can see that there are 3 battles without a defending king. 
+From the data we can see that there are 3 battles without a defending king.
 ```
              name                    note
   23 Battle of the Burning Septry     
@@ -156,7 +156,7 @@ From the data we can see that there are 3 battles without a defending king.
 ```
 Digging a little deeper shows that two of them were against the brave Companion which don't have a king, and the remaining one is a razing, that is, an attack against an undefended position:
 ```
-                    
+
                          ambush  pitched battle  razing  siege
                      0      0         0             1     0
     Baratheon        0      0         0             0     0
@@ -184,14 +184,14 @@ levels(battles$defender_king)[match("",levels(battles$defender_king))]="NoKing"
 
 **Observation O1**: From the previous plots, it seems that both Renly Baratheon and Mance Rayder did not have the time, or the will, to perform any attack: they only defended their position.
 
-  
+
 #### Attackers
-These variables indicates the major houses attacking. 
+These variables indicates the major houses attacking.
 
 Main attackers:
 
 ```
-  "Baratheon"  "Bolton"  "Bracken"  "Brave Companions"  "Brotherhood without Banners" 
+  "Baratheon"  "Bolton"  "Bracken"  "Brave Companions"  "Brotherhood without Banners"
   "Darry"  "Free folk"  "Frey"    "Greyjoy"  "Lannister"         "Stark"
 ```
 
@@ -229,7 +229,7 @@ Another observation is that the House Glover is present all the times that 4 att
 38  Siege of Winterfell          Stannis Baratheon    Joffrey/Tommen Baratheon                 The North    
 ```
 
-**Observation O2**:This last battle does not have an outcome, because in the book we only know a letter send to Jon Snow by Ramsey Bolton which tells him that Stannis died, but we are not sure of the letter trustfulness. 
+**Observation O2**:This last battle does not have an outcome, because in the book we only know a letter send to Jon Snow by Ramsey Bolton which tells him that Stannis died, but we are not sure of the letter trustfulness.
 
 **Question Q6**: There are other cases with missing *attacker_outcome*? **Expectation E6**: Probably not, since that is the last battle of the books until now. **Answer A6**: No, that battle is the only one. We can set the missing value to "unknown":
 
@@ -271,9 +271,9 @@ Fourth defenders:
   NULL
 ```
 
-It can be seen that even in the defenders levels there are missing information represented as an empty string. As with the attackers, we can encode the missing values as "NonPresent", indicating that a defender is not present for that battle. 
+It can be seen that even in the defenders levels there are missing information represented as an empty string. As with the attackers, we can encode the missing values as "NonPresent", indicating that a defender is not present for that battle.
 
-**Observation O3**: It can be further noticed that nobody defended with more than one ally, and the *defender_3* and *defender_4* columns can be removed from the dataset. 
+**Observation O3**: It can be further noticed that nobody defended with more than one ally, and the *defender_3* and *defender_4* columns can be removed from the dataset.
 
 ```r
 levels(battles$defender_2)[match("",levels(battles$defender_2))]="NotPresent"
@@ -305,11 +305,11 @@ This variable indicates the outcome from the perspective of the attacker. Catego
 
 
 #### Battle types
-A classification of the battle's primary type. Categories: 
+A classification of the battle's primary type. Categories:
 
-- Pitched_battle: armies meet in a location and fight. 
-- Ambush: a battle where stealth or subterfuge was the primary means of attack. 
-- Siege: a prolonged of a forties position. 
+- Pitched_battle: armies meet in a location and fight.
+- Ambush: a battle where stealth or subterfuge was the primary means of attack.
+- Siege: a prolonged of a forties position.
 - Razing: an attack against an undefended position
 
 ```
@@ -372,7 +372,7 @@ Major commanders of the defenders. Commander's names are included without honori
 ```
 
 ```r
-levels(battles$defender_commander) = c(levels(battles$defender_commander), "NotPresent","unknown") 
+levels(battles$defender_commander) = c(levels(battles$defender_commander), "NotPresent","unknown")
 battles[battles$defender_king=="NoKing" & battles$defender_commander=="","defender_commander"]="NotPresent"
 battles[battles$defender_commander=="","defender_commander"]="unknown"
 battles$defender_commander = droplevels(battles$defender_commander)
@@ -417,7 +417,7 @@ This section deals with the understanding and cleaning of numerical variables in
 The year of the battle. We convert it to a factor variable for convenience and representation, since it assumes only $$3$$ different values.
 
 ```
-   Min.  1st Qu.  Median   Mean    3rd Qu.  Max. 
+   Min.  1st Qu.  Median   Mean    3rd Qu.  Max.
   298.0   299.0    299.0   299.1   300.0   300.0
 ```
 
@@ -425,7 +425,7 @@ The year of the battle. We convert it to a factor variable for convenience and r
 The size of the attacker's force. No distinction is made between the types of soldiers such as cavalry and footmen:
 
 ```
-   Min.  1st Qu.  Median  Mean   3rd Qu.   Max.   NA's 
+   Min.  1st Qu.  Median  Mean   3rd Qu.   Max.   NA's
     20    1375     4000   9943    8250   100000    14
 ```
 From the summary we can see that the distribution of the attacker army has a mean of about $$10000$$ soldiers , but is very scattered with many missing numbers. Particularly impressing is maximum number of $$100000$$ men.
@@ -450,7 +450,7 @@ We Do not consider "unknown" o "razing" battles since they have few or none obse
 The size of the defender's force. No distinction is made between the types of soldiers such as cavalry and footmen.
 
 ```
-   Min.  1st Qu.  Median  Mean   3rd Qu.  Max.   NA's 
+   Min.  1st Qu.  Median  Mean   3rd Qu.  Max.   NA's
    100    1070    6000    6428   10000   20000     19
 ```
 
@@ -466,4 +466,3 @@ The size of the defender's force. No distinction is made between the types of so
   * [Exploratory Analysis and Predictions](https://www.kaggle.com/shaildeliwala/d/mylesoneill/game-of-thrones/exploratory-analysis-and-predictions) - Shail Deliwala
   * [Systematic Analysis on GoT Battles](https://www.kaggle.com/gowrishankarin/d/mylesoneill/game-of-thrones/analysis-on-battles) - Gowri Shankar
   * [Tufte in R](http://motioninsocial.com/tufte/) - Lukasz Piwek
-  

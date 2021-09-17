@@ -4,7 +4,7 @@ title: "Nonlinear system identification via data augmentation"
 date: 2019-06-19
 author: Mirko Mazzoleni
 category: Journal
-tags: [SSI, SysID, ML]
+tags: [Semisupervised, SysID]
 comments: true
 authors: "S. Formentin, M. Mazzoleni, M. Scandella, F. Previdi"       
 post-card-type: research

@@ -4,7 +4,7 @@ title: "Identification of dynamic textures using Dynamic Mode Decomposition"
 date: 2020-07-20
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID, ML]
+tags: [SysID, MachineLearning]
 comments: true
 authors: "D. Previtali, N. Valceschini, M. Mazzoleni, F. Previdi"       
 post-card-type: research

@@ -4,7 +4,7 @@ title: "A Comparison of Classification Algorithms for Brain Computer Interface i
 date: 2015-08-20
 author: Mirko Mazzoleni
 category: Conference
-tags: [ML, BCI]
+tags: [MachineLearning, BCI]
 comments: true
 authors: "M. Mazzoleni, F. Previdi"     
 post-card-type: research

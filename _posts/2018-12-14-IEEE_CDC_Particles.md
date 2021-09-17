@@ -4,7 +4,7 @@ title: "Classification of light charged particles via learning-based system iden
 date: 2018-12-14
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID, ML]
+tags: [SysID, MachineLearning]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, S. Formentin, F. Previdi"       
 post-card-type: research

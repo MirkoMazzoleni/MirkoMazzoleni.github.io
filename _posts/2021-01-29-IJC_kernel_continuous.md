@@ -4,7 +4,7 @@ title: "Kernel-based identification of asymptotically stable continuous-time lin
 date: 2021-01-29
 author: Mirko Mazzoleni
 category: Journal
-tags: [SysID, ML]
+tags: [SysID]
 comments: true
 authors: "M. Scandella, M. Mazzoleni, S. Formentin, F. Previdi"       
 post-card-type: research

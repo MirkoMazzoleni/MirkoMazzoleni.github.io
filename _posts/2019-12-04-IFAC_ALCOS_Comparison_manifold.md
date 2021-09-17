@@ -4,7 +4,7 @@ title: "A comparison of manifold regularization approaches for kernel-based syst
 date: 2019-12-04
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID, ML, SSI]
+tags: [SysID, Semisupervised]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, F. Previdi"       
 post-card-type: research
