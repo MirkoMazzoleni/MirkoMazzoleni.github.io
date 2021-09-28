@@ -4,7 +4,7 @@ title: "Electro-Mechanical Actuators for the More Electric Aircraft"
 date: 2021-01-30
 author: Mirko Mazzoleni
 category: Book
-tags: [FaultDiagnosis]
+tags: [FaultDiagnosis, REPRISE]
 comments: true
 authors: "M. Mazzoleni, G. DI Rito, F. Previdi"       
 post-card-type: research

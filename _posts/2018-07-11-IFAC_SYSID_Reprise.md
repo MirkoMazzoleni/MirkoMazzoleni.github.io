@@ -26,7 +26,7 @@ the computed features is assessed and tracked over time. We propose an online st
 approach, based on density estimation techniques, in order to detect potential changes in the
 data distribution. The discovered changes are then interpreted as a modification of the EMA’s
 health state, leading to a first building block for a complete condition assessment strategy.
- [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2018/10/2018-IFAC-SYSID-Identification-of-nonlinear-dynamical-system-with-synthetic-data-a-preliminary-investigation.pdf)</strong>, <strong>Code</strong>]
+ [<strong>[Paper](https://cal.unibg.it/wp-content/uploads/papers/2018-IFAC-SYSID-Condition-assessment-of-electro-mechanical-actuators-for-aerospace-using-relative-density-ratio-estimation.pdf)</strong>, <strong>Code</strong>]
 
 
 
