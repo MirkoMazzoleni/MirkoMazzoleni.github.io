@@ -30,6 +30,7 @@ volume = {105},
 pages = {104446},
 year = {2021},
 issn = {0952-1976},
+author = {Nicholas Valceschini and Mirko Mazzoleni and Fabio Previdi},
 doi = {https://doi.org/10.1016/j.engappai.2021.104446},
 url = {https://www.sciencedirect.com/science/article/pii/S0952197621002943},
 }

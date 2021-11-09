@@ -8,7 +8,7 @@ tags: [FaultDiagnosis]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, L. Maurelli, F. Previdi"       
 post-card-type: research
-card-image: ../images/2020-07-20-IFAC_WC_MechApplicationsCD/jammingCD.jpg
+card-image: ../images/2020-07-20-IFAC_WC_MechApplicationsCD/jammingCD.JPG
 ---
 
 

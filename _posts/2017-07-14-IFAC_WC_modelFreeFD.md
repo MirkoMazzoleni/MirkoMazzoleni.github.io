@@ -31,7 +31,7 @@ M. Mazzoleni and Y. Maccarana and F. Previdi, "A comparison of data-driven fault
 ```
 @article{MAZZOLENI201712797,
 	title = "A comparison of data-driven fault detection methods with application to aerospace electro-mechanical actuators",
-	journal = ""20th IFAC World Congress"",
+	journal = "20th IFAC World Congress,
 	volume = "50",
 	number = "1",
 	pages = "12797 - 12802",
