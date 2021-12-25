@@ -4,7 +4,7 @@ title: "A Games of Tufte - Part II"
 date: 2016-09-20
 author: Mirko Mazzoleni
 category: Blog
-tags: [R, DataViz]
+tags: [R, Visualization]
 comments: true
 description: Visualization of Game of Thrones battles
 subtitle:

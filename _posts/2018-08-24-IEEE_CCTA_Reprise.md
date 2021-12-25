@@ -4,7 +4,7 @@ title: "Condition monitoring of electro-mechanical actuators for aerospace using
 date: 2018-08-24
 author: Mirko Mazzoleni
 category: Conference
-tags: [FaultDiagnosis, REPRISE]
+tags: [FaultDiagnosis, REPRISE, ChangeDetection]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi"       
 post-card-type: research

@@ -4,7 +4,7 @@ title: "Mechatronics applications of condition monitoring using a statistical ch
 date: 2020-07-20
 author: Mirko Mazzoleni
 category: Conference
-tags: [FaultDiagnosis]
+tags: [FaultDiagnosis, Mechatronics]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, L. Maurelli, F. Previdi"       
 post-card-type: research

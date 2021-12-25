@@ -13,17 +13,7 @@ card-image: ../images/2017-07-14-IFAC_WC/model_based_fd.png
 
 ### Abstract
 
-In this paper, a modification of the standard particle filter algorithm is applied to
-face the fault detection issue, on an electro-mechanical actuator. The variant, based on a hybrid
-system interpretation of the health monitoring problem, is known as OTPF (Observation and
-Transition Particle Filter). By modeling each fault condition as a hybrid system mode, the
-method is able to assess the most likely regime for each time stamp. Following this approach,
-data were acquired from an electro-mechanical actuator, used in aerospace environment, under
-various fault conditions. The injected mechanical defects consisted in damages undergone by
-steel spheres, inside a ballscrew transmission system. Then, a model for each condition was
-identified and the proposed methodology applied. Simulation results show the superiority of the
-method with respect to the EKF (Extended Kalman Filter), especially because the distribution
-of the disturbances which affect the system is usually not gaussian.
+In this paper, a modification of the standard particle filter algorithm is applied to face the fault detection issue, on an electro-mechanical actuator. The variant, based on a hybrid system interpretation of the health monitoring problem, is known as OTPF (Observation and Transition Particle Filter). By modeling each fault condition as a hybrid system mode, the method is able to assess the most likely regime for each time stamp. Following this approach, data were acquired from an electro-mechanical actuator, used in aerospace environment, under various fault conditions. The injected mechanical defects consisted in damages undergone by steel spheres, inside a ballscrew transmission system. Then, a model for each condition was identified and the proposed methodology applied. Simulation results show the superiority of the method with respect to the EKF (Extended Kalman Filter), especially because the distribution of the disturbances which affect the system is usually not gaussian.
  [<strong>[Paper](http://cal.unibg.it/cal/wp-content/uploads/papers/2017-IFAC-WC-Holmes-particle-filter.pdf)</strong>, <strong>Code</strong>]
 
 

@@ -4,7 +4,7 @@ title: "Experimental Development of a Health Monitoring Method for Electro-Mecha
 date: 2019-11-04
 author: Mirko Mazzoleni
 category: Journal
-tags: [FaultDiagnosis, REPRISE]
+tags: [FaultDiagnosis, REPRISE, ChangeDetection]
 comments: true
 authors: "M. Mazzoleni, F. Previdi, M. Scandella, G. Pispola"       
 post-card-type: research

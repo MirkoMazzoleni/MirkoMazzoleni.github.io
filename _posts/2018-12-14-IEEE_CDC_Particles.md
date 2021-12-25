@@ -24,7 +24,7 @@ This paper presents a nonparametric learning approach for the automatic classifi
 #### Reference
 
 <blockquote>
-	M. Mazzoleni, M. Scandella, S. Formentin and F. Previdi, "Classification of light charged particles via learning-based system identification",  <strong> 57th IEEE Conference on Decision and Control (CDC) </strong>, Miami Beach, Florida, USA, 2018. <a href="https://doi.org/10.1109/CDC.2018.8618946">doi: 10.1109/CDC.2018.8618946 </a>, ISBN: 978-1-5386-1395-5, pp. 6053-6058.
+	M. Mazzoleni, M. Scandella, S. Formentin and F. Previdi, "Classification of light charged particles via learning-based system identification",  <strong> 57th IEEE Conference on Decision and Control (CDC) </strong>, Miami Beach, Florida, USA, 2018. <a href="https://doi.org/10.1109/CDC.2018.8618946"> doi: 10.1109/CDC.2018.8618946 </a>, ISBN: 978-1-5386-1395-5, pp. 6053-6058.
 </blockquote>
 
 #### Bibtex

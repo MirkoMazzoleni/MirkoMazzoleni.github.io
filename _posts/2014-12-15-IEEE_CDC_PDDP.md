@@ -14,20 +14,7 @@ card-image: ../images/2014-12-15-IEEE_CDC_PDDP/gauss.png
 
 ### Abstract
 
-In this paper, the use of the Principal Direction
-Divisive Partitioning (PDDP) method for unsupervised learning
-is discussed and analyzed with a focus on fault detection
-applications. Specifically, a geometric limit of the standard
-algorithm is highlighted by means of a simulation example
-and a modified version of PDDP is introduced. Such a method
-is shown to correcly perform data clustering also when the
-standard algorithm fails. The modified strategy is based on the
-use of a Chi-squared statistical test and offers more guarantees
-in terms of detection of a wrong functioning of the system.
-The proposed algorithm is finally experimentally tested on
-a fault detection application for aerospace electro-mechanical
-actuators, for which a comparison with k-means and fuzzy k-
-means approaches is also provided. [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2019/02/2014-IEEE-CDC-FDI-PDDP_copyright.pdf)</strong>, <strong>Code</strong>]
+In this paper, the use of the Principal Direction Divisive Partitioning (PDDP) method for unsupervised learning is discussed and analyzed with a focus on fault detection applications. Specifically, a geometric limit of the standard algorithm is highlighted by means of a simulation example and a modified version of PDDP is introduced. Such a method is shown to correcly perform data clustering also when the standard algorithm fails. The modified strategy is based on the use of a Chi-squared statistical test and offers more guarantees in terms of detection of a wrong functioning of the system. The proposed algorithm is finally experimentally tested on a fault detection application for aerospace electro-mechanical actuators, for which a comparison with k-means and fuzzy k-means approaches is also provided. [<strong>[Paper](http://cal.unibg.it/wp-content/uploads/2019/02/2014-IEEE-CDC-FDI-PDDP_copyright.pdf)</strong>, <strong>Code</strong>]
 
 
 

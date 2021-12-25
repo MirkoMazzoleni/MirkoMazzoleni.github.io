@@ -4,7 +4,7 @@ title: "Modeling and simulation of bimetallic strips in industrial circuit break
 date: 2021-07-13
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID]
+tags: [SysID, Mechatronics]
 comments: true
 authors: "M. Mazzoleni, L. Maurelli, F. Previdi"       
 post-card-type: research
@@ -18,7 +18,7 @@ This paper presents a dynamical model for the dynamics of the bimetallic strip i
 
 #### Reference
 <blockquote>
-M. Mazzoleni, L. Maurelli, F. Previdi, "Modeling and simulation of bimetallic strips in industrial circuit breakers", in  <strong>19th IFAC Symposium on System Identification</strong> IFAC-PapersOnLine, vol. 54, Issue 7, 2021, pp. 803-808, ISSN 2405-8963, <a href="https://doi.org/10.1016/j.ifacol.2021.08.460."> doi: 10.1016/j.ifacol.2021.08.460</a>.
+M. Mazzoleni, L. Maurelli, F. Previdi, "Modeling and simulation of bimetallic strips in industrial circuit breakers", in  <strong>19th IFAC Symposium on System Identification</strong> IFAC-PapersOnLine, vol. 54, Issue 7, 2021, pp. 803-808, ISSN 2405-8963, <a href="https://doi.org/10.1016/j.ifacol.2021.08.460"> doi: 10.1016/j.ifacol.2021.08.460</a>.
 </blockquote>
 
 #### Bibtex

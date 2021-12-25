@@ -4,7 +4,7 @@ title: "Nonlinear system identification via data augmentation"
 date: 2019-06-19
 author: Mirko Mazzoleni
 category: Journal
-tags: [Semisupervised, SysID]
+tags: [Semisupervised, SysID, DataAugmentation, KernelMethods]
 comments: true
 authors: "S. Formentin, M. Mazzoleni, M. Scandella, F. Previdi"       
 post-card-type: research

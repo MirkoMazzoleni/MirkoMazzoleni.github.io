@@ -4,7 +4,7 @@ title: "Piecewise nonlinear regression with data augmentation"
 date: 2021-07-13
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID]
+tags: [SysID, KernelMethods, Semisupervised]
 comments: true
 authors: "M. Mazzoleni, V. Breschi, S. Formentin"       
 post-card-type: research
@@ -25,7 +25,7 @@ generated unsupervised data.
 
 #### Reference
 <blockquote>
-M. Mazzoleni, V. Breschi, S. Formentin, "Piecewise nonlinear regression with data augmentation", in  <strong>19th IFAC Symposium on System Identification</strong> IFAC-PapersOnLine, vol. 54, Issue 7, 2021, pp. 421-426, ISSN 2405-8963, <a href="https://doi.org/10.1016/j.ifacol.2021.08.396."> doi: 10.1016/j.ifacol.2021.08.396.</a>
+M. Mazzoleni, V. Breschi, S. Formentin, "Piecewise nonlinear regression with data augmentation", in  <strong>19th IFAC Symposium on System Identification</strong> IFAC-PapersOnLine, vol. 54, Issue 7, 2021, pp. 421-426, ISSN 2405-8963, <a href="https://doi.org/10.1016/j.ifacol.2021.08.396"> doi: 10.1016/j.ifacol.2021.08.396.</a>
 </blockquote>
 
 #### Bibtex

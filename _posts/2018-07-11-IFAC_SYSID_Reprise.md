@@ -5,7 +5,7 @@ density-ratio estimation"
 date: 2018-06-21
 author: Mirko Mazzoleni
 category: Conference
-tags: [FaultDiagnosis, REPRISE]
+tags: [FaultDiagnosis, REPRISE, ChangeDetection]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, Y. Maccarana, F. Previdi, G. Pispola, N. Porzi"       
 post-card-type: research

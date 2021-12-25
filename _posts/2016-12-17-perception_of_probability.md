@@ -4,7 +4,7 @@ title: "Human perception of probability"
 date: 2016-12-17
 author: Mirko Mazzoleni
 category: Blog
-tags: [R, DataViz]
+tags: [R, Visualization]
 comments: true
 description: How humans perceive probability
 subtitle:  
@@ -14,7 +14,7 @@ card-image: ../images/2016-12-17-perception_of_probability/perception_boxplots.s
 ---
 
 
-Back in 1964, [Sherman Kent](https://en.wikipedia.org/wiki/Sherman_Kent) tried to address the problem of misleading odds expressions in [National Intelligence Estimates](https://en.wikipedia.org/wiki/National_Intelligence_Estimate) (NIE). 
+Back in 1964, [Sherman Kent](https://en.wikipedia.org/wiki/Sherman_Kent) tried to address the problem of misleading odds expressions in [National Intelligence Estimates](https://en.wikipedia.org/wiki/National_Intelligence_Estimate) (NIE).
 Recognizing communication problems caused by imprecise probablistic statements, Kent proposed a schema for standardizing the uncertainty ranges associated with words used to communicate the likelihood of an event.
 In his work [Words of Estimative Probability](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html), the author defined five ranges of uncertainty and related expressions to convey them:
 
@@ -134,6 +134,3 @@ Starting from similar analysis, the book [Critical Thinking For Strategic Intell
 In conclusion, by providing the customers with explicit language laying out why a specific word or percentage was selected, they can make their own independent calculations of the probability of event occurring. The analyst, having knowledge of how a specific sentence is interpreted, can refine his language to better convey information.
 
 The entire code for this post can be found  [here](https://github.com/MirkoMazzoleni/MirkoMazzoleni.github.io/blob/master/Rmarkdowns/2016-12-17-perception_of_probability.Rmd).
-
-
-

@@ -4,7 +4,7 @@ title: "Unsupervised Learning of Fundamental Emotional States via Word Embedding
 date: 2017-12-09
 author: Mirko Mazzoleni
 category: Conference
-tags: [MachineLearning]
+tags: [MachineLearning, Sentiment]
 comments: true
 authors: "M. Mazzoleni, G. Maroni, F. Previdi"       
 post-card-type: research

@@ -5,7 +5,7 @@ subtitle:
 date: 2016-08-06
 author: Mirko Mazzoleni
 category: Blog
-tags: [R, DataViz]
+tags: [R, Visualization]
 comments: true
 description: Visualization of Game of Thrones battles
 post-card-type: image

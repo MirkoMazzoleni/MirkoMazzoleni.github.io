@@ -4,7 +4,7 @@ title: "Inertial load classification of low-cost electro-mechanical systems unde
 date: 2021-08-31
 author: Mirko Mazzoleni
 category: Journal
-tags: [MachineLearning]
+tags: [MachineLearning, DataAugmentation, Mechatronics]
 comments: true
 authors: "N. Valceschini, M. Mazzoleni, F. Previdi"       
 post-card-type: research
@@ -18,7 +18,7 @@ This paper presents a rationale for designing a machine learning algorithm under
 
 #### Reference
 <blockquote>
-N. Valceschini, M. Mazzoleni and F. Previdi, "Inertial load classification of low-cost electro-mechanical systems under dataset shift with fast end of line testing," in <strong>Engineering Applications of Artificial Intelligence</strong>, Elsevier,  <a href="https://doi.org/10.1016/j.engappai.2021.104446."> doi: 10.1016/j.engappai.2021.104446</a>, ISSN: 0952-1976, vol. 105, 2021.
+N. Valceschini, M. Mazzoleni and F. Previdi, "Inertial load classification of low-cost electro-mechanical systems under dataset shift with fast end of line testing," in <strong>Engineering Applications of Artificial Intelligence</strong>, Elsevier,  <a href="https://doi.org/10.1016/j.engappai.2021.104446"> doi: 10.1016/j.engappai.2021.104446</a>, ISSN: 0952-1976, vol. 105, 2021.
 </blockquote>
 
 #### Bibtex

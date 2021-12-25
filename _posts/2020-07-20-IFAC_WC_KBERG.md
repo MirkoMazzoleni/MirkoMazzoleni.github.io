@@ -4,7 +4,7 @@ title: "KBERG: A MatLab toolbox for nonlinear kernel-based regularization and sy
 date: 2020-07-20
 author: Mirko Mazzoleni
 category: Conference
-tags: [SysID, Semisupervised]
+tags: [SysID, Semisupervised, KernelMethods]
 comments: true
 authors: "M. Mazzoleni, M. Scandella, F. Previdi"       
 post-card-type: research
