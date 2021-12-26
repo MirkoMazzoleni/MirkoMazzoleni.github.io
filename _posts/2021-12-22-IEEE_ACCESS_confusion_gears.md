@@ -1,12 +1,12 @@
 ---
 layout: research
-title: "Inertial load classification of low-cost electro-mechanical systems under dataset shift with fast end of line testing"
+title: "Visualizing Classification Results: Confusion Star and Confusion Gear"
 date: 2021-12-22
 author: Mirko Mazzoleni
 category: Journal
 tags: [MachineLearning, Visualization]
 comments: true
-authors: "N. Valceschini, M. Mazzoleni, F. Previdi"       
+authors: "A. Luque, M. Mazzoleni, A. Carrasco and A. Ferramosca"       
 post-card-type: research
 card-image: ../images/2021-12-22-IEEE_ACCESS_confusion_gears/confusion_gear.png
 ---
