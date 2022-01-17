@@ -12,14 +12,11 @@ post-card-type: image
 card-image: ../images/2021-12-22-IEEE_ACCESS_confusion_gears/confusion_gear.png
 ---
 
-<!--
-# Visualizing Classification Results: Confusion Star and Confusion Gear
+ **Authors:** Amalia **Luque**$$^1$$, Mirko **Mazzoleni**$$^2$$, Alejandro **Carrasco**$$^3$$ and Antonio **Ferramosca**$$^2$$
+$$^1$$. *Departamento de Ingeniería del Diseño, Escuela Politécnica Superior, Universidad de Sevilla, 41011 Sevilla, Spain* \
+$$^2$$. *Department of Management, Information and Production Engineering, University of Bergamo, 24044 Dalmine, Italy*\
+$$^3$$. *Departamento de Tecnología Electrónica, School of Computer Engineering, Universidad de Sevilla, 41012 Seville, Spain* 
 
-| **Authors:** Amalia **Luque**^1^, Mirko **Mazzoleni**^2^, Alejandro **Carrasco**^3^and Antonio **Ferramosca**^2^
-| ~1*. Departamento de Ingenieria del Diseno, Escuela Politecnica Superior, Universidad de Sevilla, 41011 Sevilla, Spain*~
-| ~2. *Department of Management, Information and Production Engineering, University of Bergamo, 24044 Dalmine, Italy*\~~
-| ~3. *Departamento de Tecnolog?a Electr?nica, School of Computer Engineering, Universidad de Sevilla, 41012 Seville, Spain*\~~
--->
 In this post, we present two new visualization tools, called **confusion star** and **confusion gear**, for the **representation of classification performances of multiclass classifiers**. More details can be found in the paper \[1\]:
 
 -   [Open-access paper on IEEE Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9658486)
@@ -53,10 +50,7 @@ We start our discussion by presenting three matrices:
 
 Classification results from machine learning algorithms are commonly summarized in the form of a **confusion matrix**, especially for representing a dichotomous ($$2$$-classes) classification tasks. As the name suggests, a confusion matrix is a table representing the **number of correctly and incorrectly classified instances**, see Table 1.
 
-| Actual class \\ Predicted class |       Positive       |       Negative       |
-|:-------------------------------:|:--------------------:|:--------------------:|
-|          **Positive**           | True Positives (TP)  | False Negatives (FN) |
-|          **Negative**           | False Positives (FP) | True Negatives (TN)  |
+![]({{ site.baseurl }}/images/2022-01-16-confusion_gears/confusion_matrix.jpg)<!-- -->
 *Table 1: Binary confusion matrix for a $$2$$-classes classification task*
 
 In the two-classes case, this matrix representation is visually effective: it is immediately clear if the classifier is performing well, as **the number of false positives and false negatives should be as low as possible.**
