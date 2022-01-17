@@ -13,9 +13,9 @@ card-image: ../images/2021-12-22-IEEE_ACCESS_confusion_gears/confusion_gear.png
 ---
 
  **Authors:** Amalia **Luque**$$^1$$, Mirko **Mazzoleni**$$^2$$, Alejandro **Carrasco**$$^3$$ and Antonio **Ferramosca**$$^2$$
-$$^1$$. *Departamento de Ingeniería del Diseño, Escuela Politécnica Superior, Universidad de Sevilla, 41011 Sevilla, Spain* \
-$$^2$$. *Department of Management, Information and Production Engineering, University of Bergamo, 24044 Dalmine, Italy*\
-$$^3$$. *Departamento de Tecnología Electrónica, School of Computer Engineering, Universidad de Sevilla, 41012 Seville, Spain* 
+$$^1$$ *Departamento de Ingeniería del Diseño, Escuela Politécnica Superior, Universidad de Sevilla, 41011 Seville, Spain* \
+$$^2$$ *Department of Management, Information and Production Engineering, University of Bergamo, 24044 Dalmine, Italy*\
+$$^3$$ *Departamento de Tecnología Electrónica, School of Computer Engineering, Universidad de Sevilla, 41012 Seville, Spain*
 
 In this post, we present two new visualization tools, called **confusion star** and **confusion gear**, for the **representation of classification performances of multiclass classifiers**. More details can be found in the paper \[1\]:
 
