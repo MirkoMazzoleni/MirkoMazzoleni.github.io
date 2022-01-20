@@ -17,7 +17,7 @@ $$^1$$ *Departamento de Ingeniería del Diseño, Escuela Politécnica Superior, 
 $$^2$$ *Department of Management, Information and Production Engineering, University of Bergamo, 24044 Dalmine, Italy*\
 $$^3$$ *Departamento de Tecnología Electrónica, School of Computer Engineering, Universidad de Sevilla, 41012 Seville, Spain*
 
-In this post, we present two new visualization tools, called **confusion star** and **confusion gear**, for the **representation of classification performances of multiclass classifiers**. More details can be found in the paper \[1\]:
+In this post, we present two new visualization tools, called **confusion star** and **confusion gear**, for the **representation of classification performance of multiclass classifiers**. More details can be found in the paper \[1\]:
 
 -   [Open-access paper on IEEE Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9658486)
 
@@ -270,7 +270,7 @@ The traditional way to represent confusion matrix uses colors (and eventually te
 
 An additional property of the confusion stars and gears is that **the enclosed area provides information about the overall classification performance**. The relation of these areas to standard classification metrics has also been derived.
 
-Finally, the new graphic tools can usefully be employed to **visualize the performances of a sequence of classifiers.**
+Finally, the new graphic tools can usefully be employed to **visualize the performance of a sequence of classifiers.**
 
 ## References
 
