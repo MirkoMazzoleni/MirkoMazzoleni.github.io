@@ -8,7 +8,7 @@ tags: [MachineLearning, DataAugmentation, Mechatronics]
 comments: true
 authors: "N. Valceschini, M. Mazzoleni, F. Previdi"       
 post-card-type: research
-card-image: ../images/2021-08-31-EAI_dataset_shift/procedure.JPG
+card-image: ../images/2021-08-31-EAAI_dataset_shift/procedure.JPG
 ---
 
 ### Abstract

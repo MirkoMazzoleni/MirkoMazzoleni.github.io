@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "Nonparametric continuous-time identification of linear systems: theory, implementation and experimental results"
+title: "A SIAT3HE model of the COVID-19 pandemic in Bergamo, Italy"
 date: 2021-09-22
 author: Mirko Mazzoleni
 category: Conference

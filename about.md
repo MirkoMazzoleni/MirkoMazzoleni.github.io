@@ -12,7 +12,7 @@ mirko[DOT]mazzoleni[AT]unibg[DOT]it
 
 ### Curriculum Vitae
 
-You can download my CV [**here**](assets/docs/cv.pdf)
+You can download my CV [**here**](https://didattica-rubrica.unibg.it/sites/default/files/cven/03-08-2022/document.pdf)
 
 
 ### Books
