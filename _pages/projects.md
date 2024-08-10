@@ -5,7 +5,7 @@ permalink: /projects/
 description: Industrial and research projects.
 nav: false
 nav_order: 4
-display_categories: [Industrial, Research]
+display_categories: [industrial, research]
 horizontal: false
 ---
 
