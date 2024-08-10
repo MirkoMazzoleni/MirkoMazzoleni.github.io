@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: List of publications authored and co-authored by Mirko Mazzoleni.
+description: List of publications authored and co-authored.
 nav: true
 nav_order: 2
 ---
