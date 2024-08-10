@@ -10,7 +10,7 @@ profile:
   more_info: >
     <p>University of Bergamo</p>
     <p>Engineering Laboratories</p>
-    <p>Via Galvani 2, 20244 Dalmine (BG)</p>
+    <p>Via Galvani 2, 20244 Dalmine (BG), Italy</p>
     
 
 
@@ -25,4 +25,4 @@ My research interests are in system identification and supervision of dynamical 
 
 I am co-founder of <a href='https://aisent.io/en/'>AISent srl</a> whose mission is to create impactful solutions for the industry through technology.
 
-You can contact me at </p>mirko [DOT] mazzoleni [AT] unibg [DOT] it</p>.
+You can contact me at: mirko [DOT] mazzoleni [AT] unibg [DOT] it
