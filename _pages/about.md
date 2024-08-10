@@ -20,4 +20,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor in the <a href='https://cal.unibg.it/'>Control and Automation Laboratory</a> at University of Bergamo, Italy. My research interests are in system identification and supervision of dynamical systems. I also work on the intersection of data science, signal processing and machine learning.
+I am an assistant professor in the <a href='https://cal.unibg.it/'>Control and Automation Laboratory</a> at University of Bergamo, Italy. 
+
+My research interests are in system identification and supervision of dynamical systems. I also work on the intersection of data science, signal processing and machine learning.
