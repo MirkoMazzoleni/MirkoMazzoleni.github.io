@@ -9,7 +9,7 @@ tags: visualization R
 description: Visualization of Game of Thrones battles
 thumbnail: /assets/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-9-1.svg
 ---
-<!-- image -->
+
 This report concerns the first part of an exploratory data analysis based on the Games of Thrones dataset hosted on [Kaggle](https://www.kaggle.com/mylesoneill/game-of-thrones). The aim of this work is to familiarize with the data for subsequent analysis, and using the Tufte design rules to represent the plots. During the process, personal domain knowledge (acquired from books and not the tv series) is used to motivate hypothesis and decisions. Since there aren't motivations or questions that brought me to collect data, in order to answer to them, we let the Exploratory Data Analysis phase to generate questions for us. A sound answer to those questions would require at least another dataset, so we let to fix in mind the fact that we are simply describing the dataset at hand, without the temptation to make inferences or other types of final statements.
 
 The entire code for this post can be found [here](https://github.com/MirkoMazzoleni/MirkoMazzoleni.github.io/blob/master/assets/code/2016-08-05-game_of_tutfe.Rmd).
@@ -130,9 +130,12 @@ levels(battles$attacker_king)[match("",levels(battles$attacker_king))]="NoKing"
 
 **Question Q2**: Who is the king who attacked more? **Expectation E2**: Joffrey/Tommen Baratheon, being Joffrey the most sadistic character. **Answer A2**: Joffrey/Tommen Baratheon
 
-![]({{ site.baseurl }}/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-9-1.svg)<!-- -->
 
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-9-1.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 #### Defender King
@@ -453,10 +456,12 @@ The size of the defender's force. No distinction is made between the types of so
 ```
 
 **Question Q17**: When attacking, which king had the most numerous army?  **Expectation E17**:Probably the Lannister's or Stannis Baratheon. **Answer 17**: Apart from the "Noking" and "Renly Baratheon", which have few observation, the plots show that the Lannister's defended their position with more troops than the other, and Stannis Baratheon, despite attacking with an high number of troops, defended with very few ones.
-![]({{ site.baseurl }}/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-38-1.svg)<!-- -->
 
-
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-38-1.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 # Acknowledgements
 
