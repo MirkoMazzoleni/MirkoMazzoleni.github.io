@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Research and industrial projects.
 nav: true
-nav_order: 5
+nav_order: 4
 display_categories: [industrial, research]
 horizontal: false
 ---
