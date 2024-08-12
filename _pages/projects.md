@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Industrial and research projects.
+description: Research and industrial projects.
 nav: false
-nav_order: 4
+nav_order: 5
 display_categories: [industrial, research]
 horizontal: false
 ---
