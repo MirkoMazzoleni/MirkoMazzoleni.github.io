@@ -53,7 +53,7 @@ Classification results from machine learning algorithms are commonly summarized 
     </div>
 </div>
 <div class="caption">
-    Table 1: Binary confusion matrix for a $$2$$-classes classification task
+    Table 1: Binary confusion matrix for a 2-classes classification task
 </div>
 
 
