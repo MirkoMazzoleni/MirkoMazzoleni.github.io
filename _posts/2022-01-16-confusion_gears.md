@@ -15,7 +15,7 @@ $$^1$$ *Departamento de Ingeniería del Diseño, Escuela Politécnica Superior, 
 $$^2$$ *Department of Management, Information and Production Engineering, University of Bergamo, 24044 Dalmine, Italy*\
 $$^3$$ *Departamento de Tecnología Electrónica, School of Computer Engineering, Universidad de Sevilla, 41012 Seville, Spain*
 
-In this post, we present two new visualization tools, called **confusion star** and **confusion gear**, for the **representation of classification performance of multiclass classifiers**. More details can be found in the paper \[1\]:
+In this post, we present two new visualization tools, called **confusion star** and **confusion gear**, for the **representation of classification performance of multiclass classifiers**. More details can be found in the paper {% cite 9658486 %}:
 
 -   [Open-access paper on IEEE Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9658486)
 
@@ -52,7 +52,10 @@ Classification results from machine learning algorithms are commonly summarized 
         {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/confusion_matrix.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*Table 1: Binary confusion matrix for a $$2$$-classes classification task*
+<div class="caption">
+    Table 1: Binary confusion matrix for a $$2$$-classes classification task
+</div>
+
 
 In the two-classes case, this matrix representation is visually effective: it is immediately clear if the classifier is performing well, as **the number of false positives and false negatives should be as low as possible.**
 
@@ -69,8 +72,14 @@ While easy to perform, this one-vs-all representation is far less effective.
 As an example, consider the famous MNIST (Modified National Institute of Standards and Technology) \[2\], that contains 70.000 images, each of them representing an handwritten digit (0 to 9). We trained a shallow MLP (Multi-Layer Perceptron) neural network on the first 60.000 images, and evaluated its results on the remaining 10.000 images. In the MNIST case, $$C=10$$ figures have to be depicted and the overall algorithm performance is difficult to evaluate. Figure 1 shows the $$10$$ confusion matrices, with cell elements expressed as percentages normalized by column (the actual class).
 
 
- ![]({{ site.baseurl }}/images/2022-01-16-confusion_gears/onevsall_cm.png "Unit binary confusion matrices for MNIST test data")
-*Figure 1: Unit binary confusion matrices for MNIST test data.*
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/onevsall_cm.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 1: Unit binary confusion matrices for MNIST test data
+</div>
 
 
 In order to understand the performance of the classifier upon $$10$$ classes, we have to look at each confusion matrix singularly. An **overall interpretation is possible but rather difficult.**
@@ -217,8 +226,9 @@ Consider for instance **class 0** and **class 2**. Here, it is immediate to obse
         {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*Figure 2: Confustion star.*
-{: style="color:gray; font-size: 100%; text-align: center;"}
+<div class="caption">
+    Figure 2: Confustion star.
+</div>
 
 
 
@@ -230,24 +240,22 @@ When small errors hinder the visualization, it is possible to employ the **logar
         {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*Figure 3: Logarithmic confusion star.*
-{: style="color:gray; font-size: 100%; text-align: center;"}
-
-
+    Figure 3: Logarithmic confusion star.
+</div>
 
 
 #### Confusion star for understanding the learning process
 
 Comparing confusion stars at **different number of training data** can be useful to understand the learning process in addition to the **learning curve**, see Figure 4.
 
-
-<div class="row mt-3">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/learning_curve.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*Figure 4: Learning curve of the MNIST dataset using a neural network with a single 128-neurons hidden layer.*
-{: style="color:gray; font-size: 100%; text-align: center;"}
+<div class="caption">
+    Figure 4: Learning curve of the MNIST dataset using a neural network with a single 128-neurons hidden layer.
+</div>
 
 Consider the significant increasing in the accuracy occurring around 500 training instances. While the **learning curve does not detail what this improvement is due to or how it is distributed** in each of the classes, an analysis of the confusion stars can shed more light on the question.
 
@@ -259,8 +267,9 @@ In Figure 5 the confusion stars corresponding to a point with 502 samples (befor
         {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/learning_cf.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*Figure 5: Confusion stars (in logarithmic scale) corresponding to a pair of points before and after the first jump in the learning curve: 502 instances (left; accuracy of 38.13%) and 610 instances (right; accuracy of 67.23%).*
-{: style="color:gray; font-size: 100%; text-align: center;"}
+<div class="caption">
+    Figure 5: Confusion stars (in logarithmic scale) corresponding to a pair of points before and after the first jump in the learning curve: 502 instances (left; accuracy of 38.13%) and 610 instances (right; accuracy of 67.23%).
+</div>
 
 
 ## Confusion gear plot
@@ -276,8 +285,10 @@ Since the hits are usually not so small, there is no need to consider logarithm 
         {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/confusion_gear.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*Figure 6: Confusion gear.*
-{: style="color:gray; font-size: 100%; text-align: center;"}
+<div class="caption">
+    Figure 6: Confusion gear
+</div>
+
 
 
 ## Conclusions
@@ -290,8 +301,3 @@ An additional property of the confusion stars and gears is that **the enclosed a
 
 Finally, the new graphic tools can usefully be employed to **visualize the performance of a sequence of classifiers.**
 
-## References
-
-\[1\] A. Luque, M. Mazzoleni, A. Carrasco and A. Ferramosca, "Visualizing Classification Results: Confusion Star and Confusion Gear," in *IEEE Access*, vol. 10, pp. 1659-1677, 2022, doi: 10.1109/ACCESS.2021.3137630.
-
-\[2\] L. Deng, "The MNIST Database of Handwritten Digit Images for Machine Learning Research \[Best of the Web\]," in *IEEE Signal Processing Magazine*, vol. 29, no. 6, pp. 141-142, Nov. 2012, doi: 10.1109/MSP.2012.2211477.
