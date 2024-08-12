@@ -49,7 +49,7 @@ Classification results from machine learning algorithms are commonly summarized 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/confusion_matrix.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/confusion_matrix.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 *Table 1: Binary confusion matrix for a $$2$$-classes classification task*
