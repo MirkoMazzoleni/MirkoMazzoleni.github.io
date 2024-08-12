@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Games of Tufte
+title: A Games of Tufte - Part II
 subtitle: Part II
 date: 2016-09-20
 author: Mirko Mazzoleni

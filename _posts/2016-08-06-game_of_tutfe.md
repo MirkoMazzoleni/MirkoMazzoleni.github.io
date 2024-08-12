@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Games of Tufte
-subtitle: Part I
+title: A Games of Tufte - Part I
+subtitle:
 date: 2016-08-06
 author: Mirko Mazzoleni
 categories: fun

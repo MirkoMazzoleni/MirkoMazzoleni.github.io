@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /teaching/
-title: Teaching
+permalink: /talks/
+title: Talks
 description: List of upcoming talks or talks I gave in the past.
 nav: true
 nav_order: 3

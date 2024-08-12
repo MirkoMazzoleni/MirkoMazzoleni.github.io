@@ -29,7 +29,7 @@ All courses are taught at University of Bergamo, Italy.
 * Management, Representation and Analysis of Data (GARD) 3 c.f.u. (in Italian) [[**Website**](https://unibg.unifind.cineca.it/individual?uri=http%3A%2F%2Firises.unibg.it%2Fresource%2Faf%2F651182-166653-COMUNE-3)]
 
 
-
+---
 
 
 

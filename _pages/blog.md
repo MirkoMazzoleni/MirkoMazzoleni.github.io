@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: Mirko Mazzoleni's Blog
+title: blog
 nav: true
 nav_order: 6
 pagination:
