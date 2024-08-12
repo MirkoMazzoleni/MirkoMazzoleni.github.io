@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Games of Tufte - Part I
-subtitle:
+title: A Games of Tufte
+subtitle: Part I
 date: 2016-08-06
 author: Mirko Mazzoleni
 categories: fun
@@ -14,6 +14,7 @@ This report concerns the first part of an exploratory data analysis based on the
 
 The entire code for this post can be found [here](https://github.com/MirkoMazzoleni/MirkoMazzoleni.github.io/blob/master/assets/code/2016-08-05-game_of_tutfe.Rmd).
 
+---
 
 ## Data cleaning and questions generation
 
@@ -71,7 +72,7 @@ The variable represents the attacker's king. A slash indicates that the king cha
 The fact, in some circumstances, that there isn't an attacking king is not an error: simply can be that there is no attacking king commanding the troops.
 In this case throwing away missing data can be detrimental, as they can be source of information. For example, a value of " " can mean "unknown" or "not applicable", so it should be encoded in that way. Usually I search for trend in missing data to see if they miss for a reason.
 
-**Question Q1**: Does the " " level mean something? **Expectation E1**: Yes, simply there's no king. **Answer A1**: The " " stands for "NoKing".
+> **Question Q1**: Does the " " level mean something? **Expectation E1**: Yes, simply there's no king. **Answer A1**: The " " stands for "NoKing".
 
 - Check the battle names where there is no attacker king and possible notes on that battles:
 
@@ -128,7 +129,7 @@ levels(battles$attacker_king)[match("",levels(battles$attacker_king))]="NoKing"
 ```
 
 
-**Question Q2**: Who is the king who attacked more? **Expectation E2**: Joffrey/Tommen Baratheon, being Joffrey the most sadistic character. **Answer A2**: Joffrey/Tommen Baratheon
+> **Question Q2**: Who is the king who attacked more? **Expectation E2**: Joffrey/Tommen Baratheon, being Joffrey the most sadistic character. **Answer A2**: Joffrey/Tommen Baratheon
 
 
 <div class="row mt-3">
@@ -146,7 +147,7 @@ This variable represents the defender's king. The levels are:
     "Robb Stark"  "Stannis Baratheon"
 ```
 
-**Question Q3**: Does the " " level mean something? **Expectation E3**: Yes, simply there's no king. **Answer A3**: No king.
+> **Question Q3**: Does the " " level mean something? **Expectation E3**: Yes, simply there's no king. **Answer A3**: No king.
 
 From the data we can see that there are 3 battles without a defending king.
 ```
@@ -179,9 +180,14 @@ I feel confident to label the " " value to the "NoKing" one.
 levels(battles$defender_king)[match("",levels(battles$defender_king))]="NoKing"
 ```
 
-**Question Q4**: Whose king undergone more attacks? **Expectation E4**: Robb Stark, it seems that everyone wants the North. **Answer A4**: Robb Stark.
+> **Question Q4**: Whose king undergone more attacks? **Expectation E4**: Robb Stark, it seems that everyone wants the North. **Answer A4**: Robb Stark.
 
-![]({{ site.baseurl }}/images/2016-08-06-games_of_tufte/unnamed-chunk-13-1.svg)<!-- -->
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-13-1.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 **Observation O1**: From the previous plots, it seems that both Renly Baratheon and Mance Rayder did not have the time, or the will, to perform any attack: they only defended their position.
 
@@ -222,7 +228,7 @@ levels(battles$attacker_4)[match("",levels(battles$attacker_4))]="NotPresent"
 
 Another observation is that the House Glover is present all the times that 4 attackers participated in a battle.
 
-**Question Q5**: What are the battle with the maximum number of attackers? **Expectation E5**: Probably the battles to conquer the North. **Answer A5**: The battles were those carried on by Stannis Baratheon to free the North from the Greyjoy's and Winterfell from Bolton's:
+> **Question Q5**: What are the battle with the maximum number of attackers? **Expectation E5**: Probably the battles to conquer the North. **Answer A5**: The battles were those carried on by Stannis Baratheon to free the North from the Greyjoy's and Winterfell from Bolton's:
 
 ```
             name                     attacker_king         defender_king       attacker_outcome   region
@@ -232,7 +238,7 @@ Another observation is that the House Glover is present all the times that 4 att
 
 **Observation O2**:This last battle does not have an outcome, because in the book we only know a letter send to Jon Snow by Ramsey Bolton which tells him that Stannis died, but we are not sure of the letter trustfulness.
 
-**Question Q6**: There are other cases with missing *attacker_outcome*? **Expectation E6**: Probably not, since that is the last battle of the books until now. **Answer A6**: No, that battle is the only one. We can set the missing value to "unknown":
+> **Question Q6**: There are other cases with missing *attacker_outcome*? **Expectation E6**: Probably not, since that is the last battle of the books until now. **Answer A6**: No, that battle is the only one. We can set the missing value to "unknown":
 
 ```
             name             attacker_king         defender_king          region
@@ -283,7 +289,7 @@ battles$defender_4=NULL
 ```
 
 
-**Question Q7**: What does it mean a " " value on the variable *defender_1*? **Expectation E7**: A battle was fought without defenders, and probably was a razing. **Answer A7**: The battle was indeed a razing and there were nor attackers neither defender kings. We can set the missing value to the "NotPresent" one:
+> **Question Q7**: What does it mean a " " value on the variable *defender_1*? **Expectation E7**: A battle was fought without defenders, and probably was a razing. **Answer A7**: The battle was indeed a razing and there were nor attackers neither defender kings. We can set the missing value to the "NotPresent" one:
 
 ```
            name         attacker_king     attacker_1     defender_king   battle_type
@@ -298,7 +304,7 @@ levels(battles$defender_1)[match("",levels(battles$defender_1))]="NotPresent"
 #### Attacker outcomes
 This variable indicates the outcome from the perspective of the attacker. Categories: win, loss, draw.
 
-**Question Q8**: What are the possible outcomes? **Expectation E8**: From the codebook, the possible values are "draw", "win", "loss".**Answer A8**: The values are under the expectations but no battle ended with a "draw":
+> **Question Q8**: What are the possible outcomes? **Expectation E8**: From the codebook, the possible values are "draw", "win", "loss".**Answer A8**: The values are under the expectations but no battle ended with a "draw":
 
 ```
 "unknown"  "loss"  "win"
@@ -317,7 +323,7 @@ A classification of the battle's primary type. Categories:
 ""  "ambush"  "pitched battle"  "razing"  "siege"
 ```
 
-**Question Q9**: What does it mean the value " " on the variable *battle_type*? **Expectation E9**: Probably an unknown battle type. **Answer A9**: The value is not indicated because is unknown how the battle went and its outcome, being the battle the Siege of Winterfell by Stannis Baratheon:
+> **Question Q9**: What does it mean the value " " on the variable *battle_type*? **Expectation E9**: Probably an unknown battle type. **Answer A9**: The value is not indicated because is unknown how the battle went and its outcome, being the battle the Siege of Winterfell by Stannis Baratheon:
 
 ```
                name         attacker_king    attacker_outcome    defender_king         battle_type
@@ -336,7 +342,7 @@ Major commanders of the attackers. Commander's names are included without honori
 ""  "Asha Greyjoy"  "Dagmer Cleftjaw"   "Daven Lannister, Ryman Fey, Jaime Lannister"
     "Euron Greyjoy, Victarion Greyjoy"  "Gregor Clegane"
 ```
-**Question Q10**: What does it mean the value " " on the variable *attacker_commander*? **Expectation E10**: Probably a missing or unknown commander. **Answer A10**: The value is not indicated because there wasn't a commander, being a battle led by the Brotherhood without Banners. We can set the missing value to a "NotPresent" one:
+> **Question Q10**: What does it mean the value " " on the variable *attacker_commander*? **Expectation E10**: Probably a missing or unknown commander. **Answer A10**: The value is not indicated because there wasn't a commander, being a battle led by the Brotherhood without Banners. We can set the missing value to a "NotPresent" one:
 
 ```
               name                attacker_king        attacker_1             defender_king    battle_type
@@ -354,7 +360,7 @@ Major commanders of the defenders. Commander's names are included without honori
 ```
 ""  "Amory Lorch"  "Asha Greyjoy"  "Beric Dondarrion"  "Bran Stark"  "Brynden Tully"
 ```
-**Question Q11**: What does it mean the value " " on the variable *defender_commander*? **Expectation E11**: Probably a missing or unknown commander. **Answer A11**: The value is not indicated because there wasn't a commander, or it was unknown. In the battles where there is "NoKing" as *defender_king*, we can assume that the a *defender_commander* was not present. In the rest of the battles, which most of them are led by the Greyjoy's, probably there was a *defender_commander* but is not indicated, and thus is unknown:
+> **Question Q11**: What does it mean the value " " on the variable *defender_commander*? **Expectation E11**: Probably a missing or unknown commander. **Answer A11**: The value is not indicated because there wasn't a commander, or it was unknown. In the battles where there is "NoKing" as *defender_king*, we can assume that the a *defender_commander* was not present. In the rest of the battles, which most of them are led by the Greyjoy's, probably there was a *defender_commander* but is not indicated, and thus is unknown:
 
 
 ```           
@@ -387,7 +393,7 @@ This variable represents the battle location. Levels are:
 ""  "Castle Black"  "Crag"   "Darry"  "Deepwood Motte"  "Dragonstone"
 ```
 
-**Question Q12**: What does it mean the value " " on the variable *location*? **Expectation E12**: Probably a missing or unknown location **Answer A12**: The location [is not known](http://awoiaf.westeros.org/index.php/Battle_at_the_burning_septry):
+> **Question Q12**: What does it mean the value " " on the variable *location*? **Expectation E12**: Probably a missing or unknown location **Answer A12**: The location [is not known](http://awoiaf.westeros.org/index.php/Battle_at_the_burning_septry):
 
 ```
              name                 attacker_king   defender_king
@@ -401,7 +407,7 @@ levels(battles$location)[match("",levels(battles$location))]="unknown"
 #### Battle regions
 The region where the battle takes place. Categories: Beyond the Wall, The North, The Iron Islands, The Riverlands, The Vale of Arryn, The Westerlands, The Crownlands, The Reach, The Stormlands, Dorne
 
-**Question Q13**: What are the values assume med by the variable? **Expectation E13**: The values assumed by the variable are those described in the codebook. **Answer A13**: The answer meets the expectation, except for the regions "The Iron Islands", "The Vale of Arryn" and "Dorne", probably because no battle were fought in those regions:
+> **Question Q13**: What are the values assume med by the variable? **Expectation E13**: The values assumed by the variable are those described in the codebook. **Answer A13**: The answer meets the expectation, except for the regions "The Iron Islands", "The Vale of Arryn" and "Dorne", probably because no battle were fought in those regions:
 
 ```
 "Beyond the Wall"  "The Crownlands"  "The North"  "The Reach"  "The Riverlands"  
@@ -431,7 +437,7 @@ The size of the attacker's force. No distinction is made between the types of so
 ```
 From the summary we can see that the distribution of the attacker army has a mean of about $$10000$$ soldiers , but is very scattered with many missing numbers. Particularly impressing is maximum number of $$100000$$ men.
 
-**Question Q14**: Which is the battle with $$100000$$ men? **Expectation E14**: A battle in the North with the wildlings. **Answer A14**: The battle was the assault of Castle Black by the wildlings and free folk, when Jon Snow loses Igritte. We can see that there is an error in the data, because we know that Stannis Baratheon was on the Night's side, defending the Nigth's Watch and seizing Mance Rayder. Furthermore, Stannis won the battle and Mance Rayder lost it, thus the *attacker_king* and *defender_king* variables should be swapped. The number of $$100000$$ is more meaningful now if we think of it as the army of all the freefolks, as it is also reported [here](http://awoiaf.westeros.org/index.php/Battle_of_Castle_Black):
+> **Question Q14**: Which is the battle with $$100000$$ men? **Expectation E14**: A battle in the North with the wildlings. **Answer A14**: The battle was the assault of Castle Black by the wildlings and free folk, when Jon Snow loses Igritte. We can see that there is an error in the data, because we know that Stannis Baratheon was on the Night's side, defending the Nigth's Watch and seizing Mance Rayder. Furthermore, Stannis won the battle and Mance Rayder lost it, thus the *attacker_king* and *defender_king* variables should be swapped. The number of $$100000$$ is more meaningful now if we think of it as the army of all the freefolks, as it is also reported [here](http://awoiaf.westeros.org/index.php/Battle_of_Castle_Black):
 
 
 ```
@@ -439,12 +445,24 @@ From the summary we can see that the distribution of the attacker army has a mea
 28 Battle of Castle Black   Stannis Baratheon    Mance Rayder    Free folk   Night's Watch       loss
 ```
 
-**Question Q15**: When attacking, which battle type required more men? **Expectation E15**: Probably the *pitched battle* type, since it requires more men than ambush or a siege, which require more discretion and tools (trebuchets, rams) capability respectively. **Answer 15**: The *pitched battle* has the higher median (about $$10000$$ troops) and it is very skewed around this value, and only $$25%$$ of values are lower than $$3000$$ troops. Perhaps surprising, the median of the *ambush* distribution is similar to that of *siege*, being the latter more concentrated, indicating that there some standard number of troops to do a siege. Here we have isolated cases of ambushes with less than $$30$$ men, and a siege with $$100000$$ men (the Mance Rayder attack to Castle Black).
+> **Question Q15**: When attacking, which battle type required more men? **Expectation E15**: Probably the *pitched battle* type, since it requires more men than ambush or a siege, which require more discretion and tools (trebuchets, rams) capability respectively. **Answer 15**: The *pitched battle* has the higher median (about $$10000$$ troops) and it is very skewed around this value, and only $$25%$$ of values are lower than $$3000$$ troops. Perhaps surprising, the median of the *ambush* distribution is similar to that of *siege*, being the latter more concentrated, indicating that there some standard number of troops to do a siege. Here we have isolated cases of ambushes with less than $$30$$ men, and a siege with $$100000$$ men (the Mance Rayder attack to Castle Black).
 We Do not consider "unknown" o "razing" battles since they have few or none observations.
-![]({{ site.baseurl }}/images/2016-08-06-games_of_tufte/unnamed-chunk-35-1.svg)<!-- -->
 
-**Question Q16**: When attacking, which king had the most numerous army?  **Expectation E16**: We already know that Mance Rayder commanded $$100000$$ men. **Answer 16**: Mance had the most numerous attacking army, but he attacked only one time, so it is more interesting to considered the other kings. I made the choice to exclude from the comparison also the "NoKing" category, since it has few observations. We can see from the plot that the Greyjoy's had the smallest army, ranging from $$10$$ to $$1000$$ men. The Lannister's and the Stark's show a high median value army, but that also had great variation in its forces, mainly for Robb Stark. This can be probably due to his attitude to perform ambush attacks with few men. Stannis Baratheon forces undergo few losses, having a quite concentrated distribution.
-![]({{ site.baseurl }}/images/2016-08-06-games_of_tufte/unnamed-chunk-36-1.svg)<!-- -->
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-35-1.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+> **Question Q16**: When attacking, which king had the most numerous army?  **Expectation E16**: We already know that Mance Rayder commanded $$100000$$ men. **Answer 16**: Mance had the most numerous attacking army, but he attacked only one time, so it is more interesting to considered the other kings. I made the choice to exclude from the comparison also the "NoKing" category, since it has few observations. We can see from the plot that the Greyjoy's had the smallest army, ranging from $$10$$ to $$1000$$ men. The Lannister's and the Stark's show a high median value army, but that also had great variation in its forces, mainly for Robb Stark. This can be probably due to his attitude to perform ambush attacks with few men. Stannis Baratheon forces undergo few losses, having a quite concentrated distribution.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/posts/2016-08-06-games_of_tufte/unnamed-chunk-36-1.svg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 
 #### Defender size
@@ -455,7 +473,7 @@ The size of the defender's force. No distinction is made between the types of so
    100    1070    6000    6428   10000   20000     19
 ```
 
-**Question Q17**: When attacking, which king had the most numerous army?  **Expectation E17**:Probably the Lannister's or Stannis Baratheon. **Answer 17**: Apart from the "Noking" and "Renly Baratheon", which have few observation, the plots show that the Lannister's defended their position with more troops than the other, and Stannis Baratheon, despite attacking with an high number of troops, defended with very few ones.
+> **Question Q17**: When attacking, which king had the most numerous army?  **Expectation E17**:Probably the Lannister's or Stannis Baratheon. **Answer 17**: Apart from the "Noking" and "Renly Baratheon", which have few observation, the plots show that the Lannister's defended their position with more troops than the other, and Stannis Baratheon, despite attacking with an high number of troops, defended with very few ones.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-From September 30 to October 2, I will be at the [32th workshop on European Research Network System Identification (ERNS)](https://automatica.dei.unipd.it/32nd-ernsi-organization/), in Venezia, Italy.
+From September 30 to October 2, I will be at the [32th workshop on European Research Network System Identification (ERNSI)](https://automatica.dei.unipd.it/32nd-ernsi-organization/), in Venezia, Italy.
