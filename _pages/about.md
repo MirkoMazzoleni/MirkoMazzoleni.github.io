@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor at Department of Management, Information and Production Engineering, University of Bergamo, Italy. 
+I am assistant professor at Department of Management, Information and Production Engineering, University of Bergamo, Italy. 
 
 My research interests concern the development of theory and practice of *system identification* and *supervision* algorithms for dynamical systems. I also work on the intersection of data science, signal processing and machine learning. Currently, I am interested in these specific topics:
 - kernel methods for system identification

@@ -23,15 +23,15 @@ In this post, we present two new visualization tools, called **confusion star** 
 
 You can cite the paper as:
 
-    `@ARTICLE{9658486,
-      author={Luque, Amalia and Mazzoleni, Mirko and Carrasco, Alejandro and Ferramosca, Antonio},
+    @ARTICLE{9658486,
+    author={Luque, Amalia and Mazzoleni, Mirko and Carrasco, Alejandro and Ferramosca, Antonio},
       journal={IEEE Access},
       title={Visualizing Classification Results: Confusion Star and Confusion Gear},
       year={2022},
       volume={10},
       number={},
       pages={1659-1677},
-      doi={10.1109/ACCESS.2021.3137630}}`
+      doi={10.1109/ACCESS.2021.3137630}}
 
 ## Matrices for representing classification results
 
@@ -49,7 +49,7 @@ Classification results from machine learning algorithms are commonly summarized 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/confusion_matrix.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/confusion_matrix.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 *Table 1: Binary confusion matrix for a $$2$$-classes classification task*
@@ -214,7 +214,7 @@ Consider for instance **class 0** and **class 2**. Here, it is immediate to obse
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 *Figure 2: Confustion star.*
@@ -227,7 +227,7 @@ When small errors hinder the visualization, it is possible to employ the **logar
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 *Figure 3: Logarithmic confusion star.*
@@ -243,7 +243,7 @@ Comparing confusion stars at **different number of training data** can be useful
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/learning_curve.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/learning_curve.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 *Figure 4: Learning curve of the MNIST dataset using a neural network with a single 128-neurons hidden layer.*
@@ -273,7 +273,7 @@ Since the hits are usually not so small, there is no need to consider logarithm 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/posts/2022-01-16-confusion_gears/confusion_gear.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/confusion_gear.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 *Figure 6: Confusion gear.*
