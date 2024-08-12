@@ -236,11 +236,10 @@ Consider for instance **class 0** and **class 2**. Here, it is immediate to obse
 When small errors hinder the visualization, it is possible to employ the **logarithm of the error matrix**, see Figure 3. Here, the center of the circle does not correspond to a null error but to an arbitrarily chosen small value (0.01 in the graphic).
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0"></div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-12 mt-md-0">
         {% include figure.liquid loading="eager" width="50%" path="assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0"></div>
+</div>
 <div class="caption">
     Figure 3: Logarithmic confusion star.
 </div>
