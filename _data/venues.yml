@@ -1,2 +1,41 @@
 "IFAC SAFEPROCESS":
-  color: "#009f36"
+  color: "#7FFFD4"
+
+"IFAC SYSID":
+  color: "#7FFFD4"
+
+"IFAC WC":
+  color: "#7FFFD4"
+
+"IFAC MECC":
+  color: "#7FFFD4"
+
+"IFAC BMS":
+  color: "#7FFFD4"
+
+"IFAC IECON":
+  color: "#7FFFD4"
+
+"IFAC CMWRS":
+  color: "#7FFFD4"
+
+"IEEE CDC":
+  color: "#7FFFD4"
+
+"ECC":
+  color: "#7FFFD4"
+
+"IEEE MED":
+  color: "#7FFFD4"
+
+"IEEE CCTA":
+  color: "#7FFFD4"
+
+"IFAC ALCOS":
+  color: "#7FFFD4"
+
+"IEEE AIM":
+  color: "#7FFFD4"
+
+"L4DC":
+  color: "#7FFFD4"
