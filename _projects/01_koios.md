@@ -1,10 +1,9 @@
 ---
 layout: page
 title: KOIOS
-description: KOIOS project
+description: Frugal learning AI in defense
 img: assets/img/7.jpg
 redirect: https://www.linkedin.com/in/koios-frugal-learning/
-importance: 3
+importance: 1
 category: research
 ---
-
