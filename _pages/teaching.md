@@ -12,17 +12,11 @@ All courses are taught at University of Bergamo, Italy.
 
 ## Currently active courses
 
-##### Ph.D. courses
-* Advanced methods for system identification (8 hours) A.Y. 2023/2024 (Ph.D. Engineering and Applied Sciences)
-[[**Website**](https://cal.unibg.it/courses/ph-d-course-advanced-methods-for-system-identification/#)]
-
-
 
 ##### Master degree courses
 * Adaptive Learning, Estimation and Supervision of dynamical systems (ALES) - 6 c.f.u. (in English) [[**Website**](https://unibg.unifind.cineca.it/individual?uri=http%3A%2F%2Firises.unibg.it%2Fresource%2Faf%2F649878-167782-PDS0-2012-1%255F649878-167782-PDS0-2012-2)]
 
-* Model Identification and Data Analysis(IMAD) - 6 c.f.u. (in Italian) [[**Website**](https://unibg.unifind.cineca.it/individual?uri=http%3A%2F%2Firises.unibg.it%2Fresource%2Faf%2F651939-167829-PDS0-2012-1)]
-
+* Model Identification and Data Analysis (IMAD) - 6 c.f.u. (in Italian) [[**Website**](https://unibg.unifind.cineca.it/individual?uri=http%3A%2F%2Firises.unibg.it%2Fresource%2Faf%2F651939-167829-PDS0-2012-1)]
 
 
 ##### Bachelor degree courses
@@ -37,6 +31,10 @@ All courses are taught at University of Bergamo, Italy.
 
 ##### Ph.D. courses
 * Methods of fault diagnosis (12 hours) A.Y. 2021/2022 (Ph.D. Engineering and Applied Sciences)
+
+* Advanced methods for system identification (8 hours) A.Y. 2023/2024 (Ph.D. Engineering and Applied Sciences)
+[[**Website**](https://cal.unibg.it/courses/ph-d-course-advanced-methods-for-system-identification/#)]
+
 
 * Advanced methods for system identification (20 hours) A.Y. 2019/2020 - 2020/2021 - 2021/2022 (Ph.D. Engineering and Applied Sciences)
 [[**Website**](https://cal.unibg.it/courses/ph-d-course-advanced-methods-for-system-identification/#)]

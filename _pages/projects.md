@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Research and industrial projects.
-nav: true
+nav: false
 nav_order: 5
 display_categories: [industrial, research]
 horizontal: false

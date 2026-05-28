@@ -4,62 +4,27 @@ title: Research
 permalink: /research/
 description: Research activities.
 nav: true
-nav_order: 4
-display_categories: [System identification, Supervision, Other]
+nav_order: 3
+display_categories:
 horizontal: false
 ---
+ 
 
-<!-- pages/research.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized research -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.researches | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each research -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Supervision of industrial equipment
 
-{% else %}
+I developed fault detection, condition monitoring and prognostic solutions in the following domains:
+* Industrial packaging machinery
+* Electro-mechanical actuators for aerospace and consumer industry
+* Solenoid valves
+* Stringing machines
+* Circuit breakers
+* CNC workbench machines
+* Mechanical components as bearnings, gears, transmission belts, fans
 
-<!-- Display projects without categories -->
 
-{% assign sorted_projects = site.researches | sort: "importance" %}
+## System identification
 
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+I developed estimation methods for dynamical systems using:
+* Nonparametric kernel-bsaed methods
+* Graph theory
+* Recurrent neural networks

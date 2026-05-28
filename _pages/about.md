@@ -13,8 +13,7 @@ profile:
     <p>Via Galvani 2, 20244 Dalmine (BG), Italy</p>
     
 
-
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -22,13 +21,12 @@ social: true # includes social icons at the bottom of the page
 I am associate professor of automatic control at Department of Management, Information and Production Engineering, University of Bergamo, Italy. 
 
 My research interests concern the development of theory and practice of *system identification* and *supervision* algorithms for dynamical systems. I also work on the intersection of data science, signal processing and machine learning. Currently, I am interested in these specific topics:
-- kernel methods for system identification
-- signal processing on graphs
-- analysis of vibration signals
-- robust and data-driven fault detection
-- processes for the development of supervision solutions
-- prognostics with scenario-based optimization approaches
+- robust and data-driven fault detection, condition monitoring and predictive maintenance
+- data-driven control
+- analysis of the properties of recurrent neural networks
 
 I am co-founder of <a href='https://aisent.io/en/'>AISent srl</a> whose mission is to create impactful solutions for the industry through technology.
+
+I am a hobbyist composer; see the [Music](/music/) section for details.
 
 You can contact me at: mirko [DOT] mazzoleni [AT] unibg [DOT] it
