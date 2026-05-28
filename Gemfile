@@ -23,7 +23,7 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
-    gem 'css_parser'
+    gem 'css_parser', '~> 1.21'
     gem 'feedjira'
     gem 'httparty'
 end

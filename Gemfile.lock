@@ -50,7 +50,7 @@ GEM
       time (< 1.0)
     csl-styles (2.0.2)
       csl (~> 2.0)
-    css_parser (2.2.0)
+    css_parser (1.22.0)
       addressable
     cssminify2 (2.1.0)
     csv (3.3.5)
@@ -251,7 +251,7 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
-  css_parser
+  css_parser (~> 1.21)
   feedjira
   httparty
   jekyll
