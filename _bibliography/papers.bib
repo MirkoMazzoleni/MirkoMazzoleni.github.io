@@ -1162,6 +1162,9 @@ abbr={BSPC}
   issn = {2405-8963},
   doi = {10.1016/j.ifacol.2024.08.517},
   author = {M. Mazzoleni and L. Maurelli and S. Formentin and F. Previdi},
+  abstract = {Existing literature on model-based filter design for stochastic LTI systems assumes complete correspondence between the system and its model. When the system is not completely known, the standard indirect model-based (two-steps) filtering solution consists of: (i) identify a model of the system from measured input/output data; (ii) design a Kalman filter based on the estimated model. The performance of this indirect approach are limited by the model and noise covariance matrices accuracy. To overcome such limitations, this paper investigates a direct (one-step) solution to the filtering problem for SISO LTI systems in the Prediction Error Method (PEM) identification framework. Simulation results indicate the effectiveness of the direct filtering approach, especially when the noise covariance matrices are misspecified.},
+  html = {https://www.sciencedirect.com/science/article/pii/S2405896324012977},
+  url = {https://www.sciencedirect.com/science/article/pii/S2405896324012977}
 }
 
 @article{mazzoleni2024datadriven,
@@ -1178,27 +1181,43 @@ abbr={BSPC}
   issn = {2405-8963},
   doi = {10.1016/j.ifacol.2024.08.576},
   url = {https://www.sciencedirect.com/science/article/pii/S2405896324013569},
+  html = {https://www.sciencedirect.com/science/article/pii/S2405896324013569},
   author = {F. Corrini and M. Mazzoleni and F. Ferracuti and L. Cavanini and F. Previdi},
+  abstract = {When modeling a dynamical system, linear models are always the first choice due to their simplicity. However, many times the system is too complex so that employing linear models results in poor performances. In this context, Linear Parameter Varying (LPV) models allow to represent non-linear input/output relationships while preserving the simple structure of linear models. The method of Least Squares Support Vector Machines (LS-SVM) is one of the most common approaches to identify a LPV model in an ARX formulation (LPV-ARX). However, due to its computational cost, it is difficult to identify a LPV-ARX model using LS-SVM in online applications, where the model must be updated every time new data are collected. An efficient update algorithm has been presented for online identification of such models, where the idea is to update the model only upon certain data that are considered informative. However, this approach requires the tuning of some hyperparameters and in certain conditions can stop updating the model even when data are informative. This paper proposes an information-based algorithm to overcome these drawbacks. Evaluation on simulated and experimental data show the effectiveness of the proposed approach on both identification and computational sides.}
 }
 
 @article{mazzoleni2024datadriven,
-  title={An explicit expression of the steady-state error in Smith Predictor applied to linear systems with integral action},
-  author={G. Sonzogni and M. Mazzoleni and M. Polver and A. Ferramosca and F.Previdi},
-  note = {18th IFAC Workshop on Time Delay Systems (TDS)},
-  year = {2024},
+title = {An explicit expression of the steady-state error in Smith Predictor applied to linear systems with integral action},
+journal = {IFAC-PapersOnLine},
+volume = {58},
+number = {27},
+pages = {43-48},
+year = {2024},
+note = {18th IFAC Workshop on Time Delay Systems TDS 2024},
+issn = {2405-8963},
+doi = {10.1016/j.ifacol.2024.10.297},
+url = {https://www.sciencedirect.com/science/article/pii/S240589632402086X},
+html = {https://www.sciencedirect.com/science/article/pii/S240589632402086X},
+author = {G. Sonzogni and M. Mazzoleni and M. Polver and A. Ferramosca and F. Previdi},
+abstract = {Time delays in control systems are often present due to inherent delays of the instrumentation and signal processing computations. Among the proposed solutions for time-delay compensation in linear control systems, an important role is played by the Smith Predictor scheme, as it allows the design of the controller for reference tracking without considering time delay. However, the Smith Predictor presents poor disturbance rejection capabilities, in particular when the system to be controlled has an integral action, e.g. as typical of motion control systems. This paper illustrates the ineffectiveness of the Smith Predictor when applied on an linear time-delay system with integral action and provides an analytical expression of the steady-state error when a step disturbance acts on the control signal.},
   bibtex_show={true},
-  abbr={IFAC TDS}
 }
 
-@article{mongini2024mealdetection,
-  title={A meal detection approach based on parity space to detect untreated meals in subjects with Type 1 diabetes},
-  author={Paolo Alberto Mongini and Mirko Mazzoleni and Antonio Ferramosca and Lalo Magni and Chiara Toffanin},
-  note = {63rd IEEE Conference on Decision and Control (CDC)},
-  year = {2024},
-  bibtex_show={true},
-  abbr={IEEE CDC}
-}
-
+@INPROCEEDINGS{10886116,
+  author={Mongini, Paolo Alberto and Mazzoleni, Mirko and Ferramosca, Antonio and Magni, Lalo and Toffanin, Chiara},
+  booktitle={2024 IEEE 63rd Conference on Decision and Control (CDC)}, 
+  title={A meal detection approach based on parity space to detect untreated meals in subjects with Type 1 diabetes*}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1307-1312},
+  keywords={Training;Prevention and mitigation;Fault detection;Signal processing;Generators;Diabetes;Glucose;Delays;Insulin;Tuning},
+  doi={10.1109/CDC56724.2024.10886116},
+  url = {https://ieeexplore.ieee.org/document/10886116},
+  html = {https://ieeexplore.ieee.org/document/10886116},
+  abstract = {In this paper a data-driven fault detection technique based on parity space is applied to the problem of detecting unannounced meals for type 1 diabetes patients. This method involves the generation and evaluation of a residual signal to detect faults (unannounced meals) acting on the system (patient). Insulin on Board (IOB), meal intake, glucose and its second derivative have been selected as input signals to generate the residuals, and the parity space matrices are estimated using 8-hour training in silico data generated by the UVA/Padova simulator. The residual evaluation module compares the residual with a threshold that is optimized for each patient using 2-day tuning data. The complete system is evaluated on 1-week scenario obtaining promising results (TPR =95%,PPV=72%) with a detection delay of 42 minutes for 80% of patients. For the 20 outlier patients, a fine-tuning and patient-tailored input signal processing are proposed as a future development.},
+    bibtex_show={true},
+  }
 
 
 @article{PREVITALI2024175,
@@ -1214,7 +1233,9 @@ abbr={BSPC}
   url = {https://www.sciencedirect.com/science/article/pii/S2405896324013041},
   html = {https://www.sciencedirect.com/science/article/pii/S2405896324013041},
   author = {Davide Previtali and Matteo Scandella and Leandro Pitturelli and Mirko Mazzoleni and Antonio Ferramosca and Fabio Previdi},
-  abbr={IFAC SYSD}
+  abbr={IFAC SYSD},
+  bibtex_show={true},
+  abstract = {The design of temperature controllers is impaired by the limited accuracy of the models employed for thermal systems, which are commonly estimated from uninformative data, such as step responses, due to the restrictive experimental design connected to the long duration of the experiments. This paper focuses on modelling an industrial convection oven following different rationales. Three continuous-time models are proposed and compared: a grey-box parametric thermal network model, a black-box parametric first order lag plus time delay model, and a black-box non-parametric model based on reproducing kernel Hilbert spaces. These are all estimated and validated on step response experimental data. Lastly, the pros and cons of each model are highlighted.}
 }
 
 
@@ -1231,7 +1252,8 @@ doi={10.1109/IECON58223.2025.11221520},
 bibtex_show={true},
 abbr={IEEE IECON},
 url = {https://ieeexplore.ieee.org/abstract/document/11221520},
-htnl = {https://ieeexplore.ieee.org/abstract/document/11221520},
+html = {https://ieeexplore.ieee.org/abstract/document/11221520},
+abstract = {This paper addresses the estimation of the State Of Charge (SOC) of lithium-ion cells via the combination of two widely used paradigms: Kalman Filters (KFs) equipped with Equivalent Circuit Models (ECMs) and machine-learning approaches. In particular, a recent Virtual Sensor (VS) synthesis technique is considered, which operates as follows: (i) learn an Affine Parameter-Varying (APV) model of the cell directly from data, (ii) derive a bank of linear observers from the APV model, (iii) train a machine-learning technique from features extracted from the observers together with input and output data to predict the SOC. The SOC predictions returned by the VS are supplied to an Extended KF (EKF) as output measurements along with the cell terminal voltage, combining the two paradigms. A data-driven calibration strategy for the noise covariance matrices of the EKF is proposed. Experimental results show that the designed approach is beneficial w.r.t. SOC estimation accuracy and smoothness}
 }
 
 
@@ -1249,7 +1271,8 @@ doi={10.1109/SysTol66549.2025.11267364},
 bibtex_show={true},
 abbr={SYSTOL},
 url = {https://ieeexplore.ieee.org/abstract/document/11267364},
-htnl = {https://ieeexplore.ieee.org/abstract/document/11267364},
+html = {https://ieeexplore.ieee.org/abstract/document/11267364},
+abstract = {Model-based fault diagnosis is the most powerful supervision approach when a model of the dynamic system under study is available or identifiable. When the underlying system presents complex nonlinearities or time varying components so that it is not feasible to obtain an accurate mathematical description of the system, knowledge-based fault diagnosis approaches are a viable alternative. However, these techniques require classification algorithms to understand if residuals are associated with a fault condition or not. This work presents a novel classification approach based on the concept of quadratic entropy. The proposed methodology is validated on the LiU-ICE benchmark, which requires to detect and isolate faults on a spark ignite engine used in the automotive industry. Results are compared with the current best solution of the benchmark which employs open-set classification techniques.}
 }
 
 
@@ -1266,7 +1289,8 @@ doi={10.1109/SysTol66549.2025.11267346},
 bibtex_show={true},
 abbr={SYSTOL},
 url = {https://ieeexplore.ieee.org/abstract/document/11267346},
-htnl = {https://ieeexplore.ieee.org/abstract/document/11267346},
+html = {https://ieeexplore.ieee.org/abstract/document/11267346},
+abstract = {Detecting anomalies in maritime vessels routes can anticipate potential collisions and prevent illicit activities. Common methods in the literature employ Automatic Identification System (AIS) data to build models of normal vessel behavior. The predictions of the models are then compared with actual data to detect discrepancies in vessel motion patterns. Datadriven or geometrical approaches can be used to build such models, requiring however a large set of historical data and lacking in interpretation. In this paper, we propose a Model Predictive Control (MPC)-based anomaly detection framework that aims at overcoming the aforementioned issues. Results on publicly available real AIS data with artificially simulated anomalies show the benefits of the proposed physics-based MPC approach when compared with a geometrical-based approach.}
 }
 
 
@@ -1284,6 +1308,7 @@ bibtex_show={true},
 abbr={ECC},
 url={https://ieeexplore.ieee.org/abstract/document/11187191},
 html = {https://ieeexplore.ieee.org/abstract/document/11187191},
+abstract = {This paper addresses data-driven robust control design for Single-Input Single-Output (SISO) multi-model systems with mixed uncertainties. The proposed scheme tackles uncertainties arising from three sources: model estimation variance, measurements noise, and plant behavior variations across operating points. These uncertainties are combined into a single global output multiplicative uncertainty, encompassing the variability of all local models. The uncertainty quantification utilizes: (i) kernel methods for identifying the model of the plant, and (ii) a randomized approach for estimating the uncertainty region, guaranteeing a high probability of capturing the true plant behavior within the estimated uncertainty region. The designed robust controller for multi-model systems is evaluated in simulation on a model of a reconfigurable industrial oven employed in the packaging industry.}
 }
 
 @INPROCEEDINGS{11187136,
@@ -1300,6 +1325,8 @@ bibtex_show={true},
 abbr={ECC},
 url={https://ieeexplore.ieee.org/abstract/document/11187136},
 html = {https://ieeexplore.ieee.org/abstract/document/11187136},
+abstract = {The increasing stress on the electric power distribution grid exposes the grid to different types of disturbances and faults. Recent technology enables electric vehicles (EVs) to act as a distributed energy storage source, so that the stress on the power grid is reduced. However, unexpected power grid changes may still lead to on-board-chargers (OBCs) damages on EVs. Thus, promptly detecting changes on the three-phase voltage signal coming from the grid is of paramount importance to adapt the grid to the new condition without affecting the OBCs. In this work, we propose a power grid fault detection method able to detect changes on the grid. The method is based on the estimation of the three-phase voltage signal from the grid using an Unscented Kalman Filter (UKF). The method is evaluated on data from a simulated power grid and from a real one, considering different power grid changes.
+}
 }
 
 
@@ -1317,6 +1344,7 @@ bibtex_show={true},
 abbr={ECC},
 url={http://ieeexplore.ieee.org/abstract/document/11187211},
 html = {http://ieeexplore.ieee.org/abstract/document/11187211},
+abstract = {Recurrent Neural Networks (RNNs) have shown remarkable performances in system identification, particularly in nonlinear dynamical systems such as thermal processes. However, stability remains a critical challenge in practical applications: although the underlying process may be intrinsically stable, there may be no guarantee that the resulting RNN model captures this behavior. This paper addresses the stability issue by deriving a sufficient condition for Input-to-State Stability based on the infinity-norm (ISS∞) for Long Short-Term Memory (LSTM) networks. The obtained condition depends on fewer network parameters compared to prior works. A ISS∞-promoted training strategy is developed, incorporating a penalty term in the loss function that encourages stability and an ad hoc early stopping approach. The quality of LSTM models trained via the proposed approach is validated on a thermal system case study, where the ISS∞-promoted LSTM outperforms both a physics-based model and an ISS∞-promoted Gated Recurrent Unit (GRU) network while also surpassing non-ISS∞-promoted LSTM and GRU RNNs.}
 }
 
 
@@ -1336,6 +1364,7 @@ html = {https://www.sciencedirect.com/science/article/pii/S2405896325014363},
 author = {F. Corrini and M. Mazzoleni and M. Scandella and F. Ferracuti and L. Cavanini and F. Previdi},
 bibtex_show={true},
 abbr={IFAC LPVS},
+abstract ={Modeling non-linear systems has always been a challenge in the field of control engineering. Linear Parameter Varying (LPV) models can be a valid choice to model complex systems, since they have a simple linear structure, but time varying coefficients that captures the system dynamics according to a scheduling signal measured from the system. A common approach to identify a LPV system in an ARX form is the Least Squares Support Vector Machines (LS-SVM) method. However, due to its computational complexity, it is difficult to employ such algorithm in online applications, when a model must be identified each time a new datum is collected from the system. An efficient recursive update algorithm has been recently presented in the literature for such cases, where only the most informative data points are selected to update the model, thus generally reducing the required computational effort. However, in certain conditions such algorithm selects too many data points, still leading to an high computational time. In this work, a quadratic entropy based algorithm is proposed to overcome the limitations found in the literature, providing a better trade-of between identification accuracy and computational time.}
 }
 
 
@@ -1355,6 +1384,7 @@ html = {https://www.sciencedirect.com/science/article/pii/S240589632501571X},
 author = {Giulia Sonzogni and Rodrigo A. González and Koen Tiels and Mirko Mazzoleni and Tom Oomen and Fabio Previdi},
 bibtex_show={true},
 abbr={IFAC MECHATRONICS},
+abstract = {Mechatronic systems often present integral actions and time delay. The Smith Predictor scheme is a common way to deal with time delay in control systems. However, standard Smith Predictor schemes exhibit poor performance when applied on systems with an integral action. This paper introduces a modified Smith Predictor to effectively control systems with both delays and an integral action. Additionally, a user-friendly design method that ensures closed-loop stability is provided. The effectiveness of the approach is verified on simulations and on an experimental motion setup.}
 }
 
 
@@ -1372,6 +1402,7 @@ bibtex_show={true},
 abbr={IEEE ACCESS},
 url = {https://ieeexplore.ieee.org/abstract/document/10745272},
 html = {https://ieeexplore.ieee.org/abstract/document/10745272},
+abstract = {In this article a methodology, based on the Kano model, to prioritize the features of a product or service is proposed. Instead of using detailed, lengthy, burdensome, time-demanding, and biased-prone questionnaires, enquiring the user satisfaction with each product feature, a simplified survey asking for the overall satisfaction with the product is used. The proposed method starts by training a machine learning (ML) model using a dataset of different instances of the product and the corresponding perceived quality. This model is then employed to derive the relationship between each feature and the satisfaction associated with them. The shape of this relationship is interpreted according to a Kano model placing each attribute in a bidimensional Kano map which is later partitioned using ML clustering techniques. This methodology has been applied to an open dataset containing the physicochemical characteristics of hundreds of wines and the corresponding scores obtained in a blind tasting evaluation. The research has shown that ML models get very remarkable results predicting the perceived quality of a wine and is able to build a Kano map of the wine features. The ML clustering techniques employed partitioning this Kano map has clearly overperformed conventional rectangular or polar segmentation. It has also been shown that using four categories of features, as it is proposed in the Kano model, is the most reasonable partition from an ML clustering perspective.}
 }
 
 
@@ -1385,11 +1416,13 @@ year = {2025},
 issn = {0967-0661},
 doi = {10.1016/j.conengprac.2025.106427},
 url = {https://www.sciencedirect.com/science/article/pii/S096706612500190X},
-url = {https://www.sciencedirect.com/science/article/pii/S096706612500190X},
+html = {https://www.sciencedirect.com/science/article/pii/S096706612500190X},
 author = {Daniel Jung and Erik Frisk and Mattias Krysander and Anna Sztyber-Betley and Francesco Corrini and Andrea Arici and Nicolas Anselmi and Mirko Mazzoleni and Jiamin Xu and Siwen Mo and Zixuan Xu and Chongpan Yang and Zhile Du and Hossein Safaeipour and Mehdi Forouzanfar and Vahid Mirahi and Anna Pinnarelli and Vicenç Puig and Qiao Deng and Yufei Liu and Jiakun Liu and Haobin Ke and Wanting Zhu and Silke Merkelbach and Maryam Ahang and Homayoun Najjaran},
 keywords = {Fault detection and isolation, Model-based diagnosis, Data-driven fault diagnosis},
 bibtex_show={true},
 abbr={CEP},
+abstract = {This paper presents a benchmark problem for fault diagnosis of an internal combustion engine that has been formulated and solved. The objective is to design a diagnosis system using and incomplete model information training data that only contains a limited set of fault realizations. Six different solutions to the benchmark, that were presented at the IFAC Safeprocess symposium 2024, are described and evaluated. The contribution of this paper is the benchmark and the presentation of six different solutions in one paper. The paper is intended to provide a starting point for engineers and researchers who work with fault diagnosis and monitoring of technical systems.
+}
 }
 
 
@@ -1405,8 +1438,11 @@ author = {Davide Previtali and Mirko Mazzoleni and Nicholas Valceschini and Fabi
 selected = {true},
 bibtex_show={true},
 abbr={ISA Transactions},
+abstract = {The design of robust and passive fault-tolerant controllers can be performed with several approaches, such as 
+$\mu$-synthesis. These control design tools can also include manually set weight functions for different control performance specifications. Although the literature already includes automatic tuning methods for such weights, these methods involve a nested optimization problem whose resolution is hindered by the presence of local minima and the evaluation of a computationally-expensive constraint. In this paper, we propose a novel surrogate-based global optimization algorithm to overcome the aforementioned limitations, also demonstrating its convergence. The effectiveness and efficiency of our proposal are compared against a local optimization method with multi-start and a global genetic algorithm, showing superior performance on both fronts. The engineering importance of the proposed algorithm is motivated by the design of passive fault-tolerant controllers that are robust to multiplicative faults, modeled as parametric uncertainties on the plant. In particular, we focus on the automatic tuning of the performance weight on the sensitivity function in the 
+-synthesis control design procedure. Numerical results are provided to assess the susceptibility with respect to the order of the plant and the uncertainty level. The robustness properties of the designed controller are also evaluated on a simulated mechatronic system subject to a multiplicative fault.}
 }
-
+ 
 
 @incollection{raimondi2026systematic,
   title={A Systematic Approach to Enhance Road Safety of Electric Pedal-Assisted Vehicles for Future Urban Mobility},
@@ -1420,4 +1456,5 @@ abbr={ISA Transactions},
   abbr={Springer},
   url = {https://link.springer.com/chapter/10.1007/978-3-032-23660-9_9},
   html = {https://link.springer.com/chapter/10.1007/978-3-032-23660-9_9},
+  abstract = {At a global level, the World Health Organization (WHO) estimated 1.19 million road traffic deaths in 2021; among these, cyclists account for 5% of fatalities. In that regard, a systematic and general approach to road safety through data analysis was proposed in the 1970s by the first administrator of the National Highway Traffic Safety Administration (NHTSA), Dr. William Haddon, who analyzed the relationship between the phases of a road crash and traffic factors to define the well-established “Haddon Matrix”. This approach is still of great relevance today. The study described in this book chapter extends Dr. Haddon’s methodology by engaging experts from different research fields. The uniqueness of this approach lies in its focus on technological, socio-cultural, and economic countermeasures for light pedal vehicles, such as e-bikes and e-cargo bikes, which to the best of authors’ knowledge, has never been addressed in previous analyses. This modified version of the Haddon Matrix is an asset tailored to be more effective than the original to address the challenges of the European mobility context.}
 }

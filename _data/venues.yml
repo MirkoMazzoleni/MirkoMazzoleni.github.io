@@ -1,47 +1,56 @@
 "IFAC SAFEPROCESS":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IFAC SYSID":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IFAC WC":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IFAC MECC":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IFAC BMS":
-  color: "#7FFFD4"
+  color: "#43916e"
 
-"IFAC IECON":
-  color: "#7FFFD4"
+"IEEE IECON":
+  color: "#43916e"
 
 "IFAC CMWRS":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IEEE CDC":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "ECC":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IEEE MED":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IEEE CCTA":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IFAC ALCOS":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IEEE AIM":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "L4DC":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "IFAC TDS":
-  color: "#7FFFD4"
+  color: "#43916e"
 
 "SPRINGER":
-  color: "#F3E8EA"
+  color: "#ba2b32"
+
+"SYSTOL":
+  color: "#43916e"
+
+"IFAC MECHATRONICS":
+  color: "#43916e"
+
+"IFAC LPVS":
+  color: "#43916e"

@@ -1,0 +1,771 @@
+/Users/mirkomazzoleni/.gem/ruby/3.4.1/gems/jekyll-twitter-plugin-2.1.0/lib/jekyll-twitter-plugin.rb:6: warning: ostruct was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.5.0.
+You can add ostruct to your Gemfile or gemspec to silence this warning.
+  Logging at level: debug
+    Jekyll Version: 4.4.1
+Configuration file: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_config.yml
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/cache-bust.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/details.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/download-3rd-party.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/external-posts.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/file-exists.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/google-scholar-citations.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/hide-custom-bibtex.rb
+         Requiring: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_plugins/remove-accents.rb
+         Requiring: jekyll-archives
+         Requiring: jekyll-email-protect
+         Requiring: jekyll-feed
+         Requiring: jekyll-get-json
+         Requiring: jekyll-imagemagick
+         Requiring: jekyll-jupyter-notebook
+         Requiring: jekyll-link-attributes
+         Requiring: jekyll-minifier
+         Requiring: jekyll-paginate-v2
+         Requiring: jekyll-regex-replace
+         Requiring: jekyll/scholar
+         Requiring: jekyll-sitemap
+         Requiring: jekyll-tabs
+         Requiring: jekyll-toc
+         Requiring: jekyll-twitter-plugin
+         Requiring: jemoji
+            Source: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io
+       Destination: /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+           Reading: /_layouts/about.liquid
+           Reading: /_layouts/archive-category.liquid
+           Reading: /_layouts/archive-tag.liquid
+           Reading: /_layouts/archive-year.liquid
+           Reading: /_layouts/bib.liquid
+           Reading: /_layouts/cv.liquid
+           Reading: /_layouts/default.liquid
+           Reading: /_layouts/distill.liquid
+           Reading: /_layouts/none.liquid
+           Reading: /_layouts/page.liquid
+           Reading: /_layouts/post.liquid
+           Reading: /_layouts/profiles.liquid
+       EntryFilter: excluded /LICENSE
+       EntryFilter: excluded /lighthouse_results
+       EntryFilter: excluded /bin
+       EntryFilter: excluded /Dockerfile
+       EntryFilter: excluded /FAQ.md
+       EntryFilter: excluded /purgecss.config.js
+       EntryFilter: excluded /README.md
+       EntryFilter: excluded /package-lock.json
+       EntryFilter: excluded /package.json
+       EntryFilter: excluded /Gemfile
+       EntryFilter: excluded /Gemfile.lock
+       EntryFilter: excluded /docker-compose.yml
+       EntryFilter: excluded /docker-compose-slim.yml
+       EntryFilter: excluded /.jekyll-cache
+           Reading: _posts/2016-08-06-game_of_tutfe.md
+           Reading: _posts/2016-09-20-game_of_tufte_part_II.md
+           Reading: _posts/2016-11-28-three_ways_of_inference.md
+           Reading: _posts/2016-12-17-perception_of_probability.md
+           Reading: _posts/2022-01-16-confusion_gears.md
+           Reading: _pages/repositories.md
+           Reading: _pages/music.md
+           Reading: _pages/news.md
+           Reading: _pages/profiles.md
+           Reading: _pages/blog.md
+           Reading: _pages/dropdown.md
+           Reading: _pages/projects.md
+           Reading: _pages/research.md
+           Reading: _pages/publications.md
+           Reading: _pages/teaching.md
+           Reading: _pages/404.md
+           Reading: _pages/talks.md
+           Reading: _pages/about.md
+           Reading: assets/css/main.scss
+           Reading: assets/code/2016-12-17-perception_of_probability.Rmd
+           Reading: assets/code/2016-08-05-game_of_tutfe.Rmd
+           Reading: robots.txt
+           Reading: _news/announcement_0001.md
+           Reading: _news/announcement_0002.md
+           Reading: _projects/01_koios.md
+           Reading: _projects/02_industrial.md
+           Reading: _researches/01_supervision.md
+           Reading: _researches/02_identification.md
+           Reading: _data/coauthors.yml
+           Reading: _data/cv.yml
+           Reading: _data/repositories.yml
+           Reading: _data/venues.yml
+        Generating: JekyllGetJson::GetJsonGenerator finished in 0.000131 seconds.
+        Generating: Jekyll::Scholar::DetailsGenerator finished in 1.4e-05 seconds.
+        Generating: ExternalPosts::ExternalPostsGenerator finished in 3.0e-06 seconds.
+           Reading: assets/jupyter/blog.ipynb
+        Generating: JekyllJupyterNotebook::Generator finished in 0.000443 seconds.
+        Generating: Jekyll::Archives::Archives finished in 0.000768 seconds.
+         AutoPages: Disabled/Not configured in site.config.
+        Pagination: Starting
+        Pagination: found page: _pages/blog.md
+        Pagination: Complete, processed 1 pagination page(s)
+        Generating: Jekyll::PaginateV2::Generator::PaginationGenerator finished in 0.000259 seconds.
+       Imagemagick: Searching files in /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/img/
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/1-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/1-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/1-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/10-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/10-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/10-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/11-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/11-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/11-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/12-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/12-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/12-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/2-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/2-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/2-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/3-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/3-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/3-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/4-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/4-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/4-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/5-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/5-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/5-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/6-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/6-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/6-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/7-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/7-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/7-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/8-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/8-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/8-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/9-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/9-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/9-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2016-11-28-three_ways_of_inference/three_ways-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2016-11-28-three_ways_of_inference/three_ways-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2016-11-28-three_ways_of_inference/three_ways-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2016-12-17-perception_of_probability/perception-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2016-12-17-perception_of_probability/perception-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2016-12-17-perception_of_probability/perception-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/balanced_cf-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/balanced_cf-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/balanced_cf-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/balanced_cf_log-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/confusion_gear-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/confusion_gear-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/confusion_gear-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/confusion_matrix-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/confusion_matrix-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/confusion_matrix-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/learning_cf-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/learning_cf-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/learning_cf-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/learning_curve-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/learning_curve-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/learning_curve-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/onevsall_cm-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/onevsall_cm-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/posts/2022-01-16-confusion_gears/onevsall_cm-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/prof_pic-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/prof_pic-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/prof_pic-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/publication_preview/brownian-motion-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/publication_preview/brownian-motion-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/publication_preview/brownian-motion-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/publication_preview/wave-mechanics-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/publication_preview/wave-mechanics-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/publication_preview/wave-mechanics-1400.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/template_error-480.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/template_error-800.webp
+       Imagemagick: Adding static file /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_site/assets/img/template_error-1400.webp
+       Imagemagick: Generated 0 file(s)
+        Generating: JekyllImagemagick::ImageGenerator finished in 0.002901 seconds.
+        Generating: Jekyll::JekyllSitemap finished in 0.00173 seconds.
+       Jekyll Feed: Generating feed for posts
+        Generating: JekyllFeed::Generator finished in 0.000464 seconds.
+         Rendering: _posts/2016-08-06-game_of_tutfe.md
+  Pre-Render Hooks: _posts/2016-08-06-game_of_tutfe.md
+  Rendering Liquid: _posts/2016-08-06-game_of_tutfe.md
+  Rendering Markup: _posts/2016-08-06-game_of_tutfe.md
+Post-Convert Hooks: _posts/2016-08-06-game_of_tutfe.md
+  Rendering Layout: _posts/2016-08-06-game_of_tutfe.md
+         Rendering: _posts/2016-09-20-game_of_tufte_part_II.md
+  Pre-Render Hooks: _posts/2016-09-20-game_of_tufte_part_II.md
+  Rendering Liquid: _posts/2016-09-20-game_of_tufte_part_II.md
+  Rendering Markup: _posts/2016-09-20-game_of_tufte_part_II.md
+Post-Convert Hooks: _posts/2016-09-20-game_of_tufte_part_II.md
+  Rendering Layout: _posts/2016-09-20-game_of_tufte_part_II.md
+         Rendering: _posts/2016-11-28-three_ways_of_inference.md
+  Pre-Render Hooks: _posts/2016-11-28-three_ways_of_inference.md
+  Rendering Markup: _posts/2016-11-28-three_ways_of_inference.md
+Post-Convert Hooks: _posts/2016-11-28-three_ways_of_inference.md
+  Rendering Layout: _posts/2016-11-28-three_ways_of_inference.md
+         Rendering: _posts/2016-12-17-perception_of_probability.md
+  Pre-Render Hooks: _posts/2016-12-17-perception_of_probability.md
+  Rendering Liquid: _posts/2016-12-17-perception_of_probability.md
+  Rendering Markup: _posts/2016-12-17-perception_of_probability.md
+Post-Convert Hooks: _posts/2016-12-17-perception_of_probability.md
+  Rendering Layout: _posts/2016-12-17-perception_of_probability.md
+         Rendering: _posts/2022-01-16-confusion_gears.md
+  Pre-Render Hooks: _posts/2022-01-16-confusion_gears.md
+  Rendering Liquid: _posts/2022-01-16-confusion_gears.md
+             Cache: Cannot dump object df82514d3ea37b98afdc421387f11e6ba485e9e4c8be11bd58b630935082ac13
+  Rendering Markup: _posts/2022-01-16-confusion_gears.md
+Post-Convert Hooks: _posts/2022-01-16-confusion_gears.md
+  Rendering Layout: _posts/2022-01-16-confusion_gears.md
+         Rendering: _news/announcement_0001.md
+  Pre-Render Hooks: _news/announcement_0001.md
+  Rendering Markup: _news/announcement_0001.md
+Post-Convert Hooks: _news/announcement_0001.md
+  Rendering Layout: _news/announcement_0001.md
+         Rendering: _news/announcement_0002.md
+  Pre-Render Hooks: _news/announcement_0002.md
+  Rendering Markup: _news/announcement_0002.md
+Post-Convert Hooks: _news/announcement_0002.md
+  Rendering Layout: _news/announcement_0002.md
+         Rendering: _projects/01_koios.md
+  Pre-Render Hooks: _projects/01_koios.md
+  Rendering Markup: _projects/01_koios.md
+Post-Convert Hooks: _projects/01_koios.md
+  Rendering Layout: _projects/01_koios.md
+         Rendering: _projects/02_industrial.md
+  Pre-Render Hooks: _projects/02_industrial.md
+  Rendering Markup: _projects/02_industrial.md
+Post-Convert Hooks: _projects/02_industrial.md
+  Rendering Layout: _projects/02_industrial.md
+         Rendering: _researches/01_supervision.md
+  Pre-Render Hooks: _researches/01_supervision.md
+  Rendering Markup: _researches/01_supervision.md
+Post-Convert Hooks: _researches/01_supervision.md
+  Rendering Layout: _researches/01_supervision.md
+         Rendering: _researches/02_identification.md
+  Pre-Render Hooks: _researches/02_identification.md
+  Rendering Markup: _researches/02_identification.md
+Post-Convert Hooks: _researches/02_identification.md
+  Rendering Layout: _researches/02_identification.md
+         Rendering: assets/code/2016-08-05-game_of_tutfe.Rmd
+  Pre-Render Hooks: assets/code/2016-08-05-game_of_tutfe.Rmd
+  Rendering Markup: assets/code/2016-08-05-game_of_tutfe.Rmd
+Post-Convert Hooks: assets/code/2016-08-05-game_of_tutfe.Rmd
+  Rendering Layout: assets/code/2016-08-05-game_of_tutfe.Rmd
+         Rendering: assets/code/2016-12-17-perception_of_probability.Rmd
+  Pre-Render Hooks: assets/code/2016-12-17-perception_of_probability.Rmd
+  Rendering Markup: assets/code/2016-12-17-perception_of_probability.Rmd
+Post-Convert Hooks: assets/code/2016-12-17-perception_of_probability.Rmd
+  Rendering Layout: assets/code/2016-12-17-perception_of_probability.Rmd
+         Rendering: _pages/404.md
+  Pre-Render Hooks: _pages/404.md
+  Rendering Liquid: _pages/404.md
+  Rendering Markup: _pages/404.md
+Post-Convert Hooks: _pages/404.md
+  Rendering Layout: _pages/404.md
+         Rendering: _pages/about.md
+  Pre-Render Hooks: _pages/about.md
+  Rendering Markup: _pages/about.md
+Post-Convert Hooks: _pages/about.md
+  Rendering Layout: _pages/about.md
+         Rendering: _pages/dropdown.md
+  Pre-Render Hooks: _pages/dropdown.md
+  Rendering Markup: _pages/dropdown.md
+Post-Convert Hooks: _pages/dropdown.md
+  Rendering Layout: _pages/dropdown.md
+         Rendering: assets/css/main.scss
+  Pre-Render Hooks: assets/css/main.scss
+  Rendering Liquid: assets/css/main.scss
+  Rendering Markup: assets/css/main.scss
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │   "variables",
+  │   ^^^^^^^^^^^
+  ╵
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │   "themes",
+  │   ^^^^^^^^
+  ╵
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 8:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │   "layout",
+  │   ^^^^^^^^
+  ╵
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 9:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │   "base",
+   │   ^^^^^^
+   ╵
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 10:3  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │   "distill",
+   │   ^^^^^^^^^
+   ╵
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 11:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │ $light-cyan-color: lighten($cyan-color, 25%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 13:20                                                                                  @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 44.5804195804%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+13 │ $light-cyan-color: lighten($cyan-color, 25%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 13:20                                                                                  @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+20 │ $light-purple-color: lighten($purple-color, 25%);
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 20:22                                                                                  @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 39.84375%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+20 │ $light-purple-color: lighten($purple-color, 25%);
+   │                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 20:22                                                                                  @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+26 │ $grey-color-light: lighten($grey-color, 40%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 26:20                                                                                  @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 81.6%)
+color.adjust($color, $lightness: 40%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+26 │ $grey-color-light: lighten($grey-color, 40%);
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    _variables.scss 26:20                                                                                  @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 7:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.red instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+20 │   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+   │                                         ^^^^^^^^^^^^^^^^^
+   ╵
+    _themes.scss 20:41                                                                                     @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 8:3  root stylesheet
+DEPRECATION WARNING [color-functions]: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+20 │   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+   │                                         ^^^^^^^^^^^^^^^^^
+   ╵
+    _themes.scss 20:41                                                                                     @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 8:3  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.green instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+20 │   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+   │                                                               ^^^^^^^^^^^^^^^^^^^
+   ╵
+    _themes.scss 20:63                                                                                     @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 8:3  root stylesheet
+DEPRECATION WARNING [color-functions]: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+20 │   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
+   │                                                               ^^^^^^^^^^^^^^^^^^^
+   ╵
+    _themes.scss 20:63                                                                                     @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 8:3  root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($dividend > 0 and $divisor > 0): 1; else: -1)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+35 │   $sign: if($dividend > 0 and $divisor > 0, 1, -1);
+   │          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/_sass/font-awesome/_functions.scss 35:10  @import
+    font-awesome/fontawesome.scss 9:9                                                                                      @import
+    /Users/mirkomazzoleni/Documents/_PERSONALE/SITO WEB/MirkoMazzoleni.github.io/assets/css/main.scss 15:3                 root stylesheet
+WARNING: 51 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+Post-Convert Hooks: assets/css/main.scss
+         Rendering: _pages/music.md
+  Pre-Render Hooks: _pages/music.md
+  Rendering Markup: _pages/music.md
+Post-Convert Hooks: _pages/music.md
+  Rendering Layout: _pages/music.md
+         Rendering: _pages/news.md
+  Pre-Render Hooks: _pages/news.md
+  Rendering Liquid: _pages/news.md
+  Rendering Markup: _pages/news.md
+Post-Convert Hooks: _pages/news.md
+  Rendering Layout: _pages/news.md
+         Rendering: _pages/profiles.md
+  Pre-Render Hooks: _pages/profiles.md
+  Rendering Markup: _pages/profiles.md
+Post-Convert Hooks: _pages/profiles.md
+  Rendering Layout: _pages/profiles.md
+         Rendering: _pages/projects.md
+  Pre-Render Hooks: _pages/projects.md
+  Rendering Liquid: _pages/projects.md
+  Rendering Markup: _pages/projects.md
+Post-Convert Hooks: _pages/projects.md
+  Rendering Layout: _pages/projects.md
+         Rendering: _pages/publications.md
+  Pre-Render Hooks: _pages/publications.md
+  Rendering Liquid: _pages/publications.md
+  Rendering Markup: _pages/publications.md
+Post-Convert Hooks: _pages/publications.md
+  Rendering Layout: _pages/publications.md
+         Rendering: _pages/repositories.md
+  Pre-Render Hooks: _pages/repositories.md
+  Rendering Liquid: _pages/repositories.md
+  Rendering Markup: _pages/repositories.md
+Post-Convert Hooks: _pages/repositories.md
+  Rendering Layout: _pages/repositories.md
+         Rendering: _pages/research.md
+  Pre-Render Hooks: _pages/research.md
+  Rendering Markup: _pages/research.md
+Post-Convert Hooks: _pages/research.md
+  Rendering Layout: _pages/research.md
+         Rendering: robots.txt
+  Pre-Render Hooks: robots.txt
+  Rendering Liquid: robots.txt
+  Rendering Markup: robots.txt
+Post-Convert Hooks: robots.txt
+  Rendering Layout: robots.txt
+         Rendering: _pages/talks.md
+  Pre-Render Hooks: _pages/talks.md
+  Rendering Markup: _pages/talks.md
+Post-Convert Hooks: _pages/talks.md
+  Rendering Layout: _pages/talks.md
+         Rendering: _pages/teaching.md
+  Pre-Render Hooks: _pages/teaching.md
+  Rendering Markup: _pages/teaching.md
+Post-Convert Hooks: _pages/teaching.md
+  Rendering Layout: _pages/teaching.md
+         Rendering: assets/jupyter/blog.ipynb
+  Pre-Render Hooks: assets/jupyter/blog.ipynb
+  Rendering Markup: assets/jupyter/blog.ipynb
+[NbConvertApp] Converting notebook /var/folders/rz/__v7yb055031tg5q1k5pl_fw0000gn/T/jekyll-jupyter-notebook20260529-96616-7wbios.ipynb to html
+Post-Convert Hooks: assets/jupyter/blog.ipynb
+  Rendering Layout: assets/jupyter/blog.ipynb
+         Rendering: blog/tag/visualization/index.html
+  Pre-Render Hooks: blog/tag/visualization/index.html
+  Rendering Markup: blog/tag/visualization/index.html
+Post-Convert Hooks: blog/tag/visualization/index.html
+  Rendering Layout: blog/tag/visualization/index.html
+         Rendering: blog/tag/r/index.html
+  Pre-Render Hooks: blog/tag/r/index.html
+  Rendering Markup: blog/tag/r/index.html
+Post-Convert Hooks: blog/tag/r/index.html
+  Rendering Layout: blog/tag/r/index.html
+         Rendering: blog/category/fun/index.html
+  Pre-Render Hooks: blog/category/fun/index.html
+  Rendering Markup: blog/category/fun/index.html
+Post-Convert Hooks: blog/category/fun/index.html
+  Rendering Layout: blog/category/fun/index.html
+         Rendering: blog/category/thoughts/index.html
+  Pre-Render Hooks: blog/category/thoughts/index.html
+  Rendering Markup: blog/category/thoughts/index.html
+Post-Convert Hooks: blog/category/thoughts/index.html
+  Rendering Layout: blog/category/thoughts/index.html
+         Rendering: blog/category/research/index.html
+  Pre-Render Hooks: blog/category/research/index.html
+  Rendering Markup: blog/category/research/index.html
+Post-Convert Hooks: blog/category/research/index.html
+  Rendering Layout: blog/category/research/index.html
+         Rendering: blog/2016/index.html
+  Pre-Render Hooks: blog/2016/index.html
+  Rendering Markup: blog/2016/index.html
+Post-Convert Hooks: blog/2016/index.html
+  Rendering Layout: blog/2016/index.html
+         Rendering: blog/2022/index.html
+  Pre-Render Hooks: blog/2022/index.html
+  Rendering Markup: blog/2022/index.html
+Post-Convert Hooks: blog/2022/index.html
+  Rendering Layout: blog/2022/index.html
+         Rendering: .html
+  Pre-Render Hooks: .html
+  Rendering Liquid: .html
+  Rendering Markup: .html
+Post-Convert Hooks: .html
+  Rendering Layout: .html
+         Rendering: sitemap.xml
+  Pre-Render Hooks: sitemap.xml
+  Rendering Liquid: sitemap.xml
+  Rendering Markup: sitemap.xml
+Post-Convert Hooks: sitemap.xml
+  Rendering Layout: sitemap.xml
+         Rendering: feed.xml
+  Pre-Render Hooks: feed.xml
+  Rendering Liquid: feed.xml
+         Rendering: _posts/2022-01-16-confusion_gears.md/#excerpt
+  Pre-Render Hooks: _posts/2022-01-16-confusion_gears.md/#excerpt
+  Rendering Liquid: _posts/2022-01-16-confusion_gears.md/#excerpt
+  Rendering Markup: _posts/2022-01-16-confusion_gears.md/#excerpt
+Post-Convert Hooks: _posts/2022-01-16-confusion_gears.md/#excerpt
+         Rendering: _posts/2016-12-17-perception_of_probability.md/#excerpt
+  Pre-Render Hooks: _posts/2016-12-17-perception_of_probability.md/#excerpt
+  Rendering Liquid: _posts/2016-12-17-perception_of_probability.md/#excerpt
+  Rendering Markup: _posts/2016-12-17-perception_of_probability.md/#excerpt
+Post-Convert Hooks: _posts/2016-12-17-perception_of_probability.md/#excerpt
+         Rendering: _posts/2016-11-28-three_ways_of_inference.md/#excerpt
+  Pre-Render Hooks: _posts/2016-11-28-three_ways_of_inference.md/#excerpt
+  Rendering Markup: _posts/2016-11-28-three_ways_of_inference.md/#excerpt
+Post-Convert Hooks: _posts/2016-11-28-three_ways_of_inference.md/#excerpt
+         Rendering: _posts/2016-09-20-game_of_tufte_part_II.md/#excerpt
+  Pre-Render Hooks: _posts/2016-09-20-game_of_tufte_part_II.md/#excerpt
+  Rendering Liquid: _posts/2016-09-20-game_of_tufte_part_II.md/#excerpt
+  Rendering Markup: _posts/2016-09-20-game_of_tufte_part_II.md/#excerpt
+Post-Convert Hooks: _posts/2016-09-20-game_of_tufte_part_II.md/#excerpt
+         Rendering: _posts/2016-08-06-game_of_tutfe.md/#excerpt
+  Pre-Render Hooks: _posts/2016-08-06-game_of_tutfe.md/#excerpt
+  Rendering Liquid: _posts/2016-08-06-game_of_tutfe.md/#excerpt
+  Rendering Markup: _posts/2016-08-06-game_of_tutfe.md/#excerpt
+Post-Convert Hooks: _posts/2016-08-06-game_of_tutfe.md/#excerpt
+  Rendering Markup: feed.xml
+Post-Convert Hooks: feed.xml
+  Rendering Layout: feed.xml
+         Rendering: assets/css/main.css.map
+  Pre-Render Hooks: assets/css/main.css.map
+  Rendering Markup: assets/css/main.css.map
+Post-Convert Hooks: assets/css/main.css.map
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+   Jekyll Minifier: Filtering out legacy 'harmony' option from uglifier_args
+                    done in 3.166 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
